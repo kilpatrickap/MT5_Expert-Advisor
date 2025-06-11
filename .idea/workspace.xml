@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa27ddf4-d4aa-4052-9a95-7ecc4b3ac13d" name="Changes" comment="final consolidated." />
+    <list default="true" id="aa27ddf4-d4aa-4052-9a95-7ecc4b3ac13d" name="Changes" comment="final.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749653970787</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="final.">
+      <option name="closed" value="true" />
+      <created>1749654068346</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1749654068346</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,8 +268,8 @@
     <MESSAGE value="backtesting" />
     <MESSAGE value="backtesting 4 pairs." />
     <MESSAGE value="Demo test." />
-    <MESSAGE value="final." />
     <MESSAGE value="final consolidated." />
-    <option name="LAST_COMMIT_MESSAGE" value="final consolidated." />
+    <MESSAGE value="final." />
+    <option name="LAST_COMMIT_MESSAGE" value="final." />
   </component>
 </project>

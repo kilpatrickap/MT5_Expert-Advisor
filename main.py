@@ -62,7 +62,6 @@ def run():
                         continue
 
                     point = symbol_info.point
-                    # --- THE FIX: Use the correct attribute name 'trade_stops_level' ---
                     stops_level = symbol_info.trade_stops_level
                     log.debug(f"{symbol} | Point: {point} | Trade Stops Level: {stops_level} points")
 
@@ -86,21 +85,34 @@ def run():
                     signal = strategy.get_signal(historical_data)
                     log.info(f"Strategy Signal for {symbol} on {timeframe_str}: {signal}")
 
+                    # --- Decision Logic ---
                     if not open_positions:
                         if signal in ["BUY", "SELL"]:
-                            entry_price = mt5.symbol_info_tick(symbol).ask if signal == "BUY" else mt5.symbol_info_tick(
-                                symbol).bid
-                            sl_price, tp_price = risk_manager.calculate_sl_tp(signal, entry_price)
-                            log.info(f"Calculated SL: {sl_price}, TP: {tp_price} for {symbol}")
+                            # --- NEW: Fetch the full, current tick information once ---
+                            tick = mt5.symbol_info_tick(symbol)
+                            if not tick:
+                                log.warning(f"Could not retrieve current tick for {symbol}. Skipping trade attempt.")
+                                continue
 
-                            connector.place_order(
-                                symbol=symbol,
+                            # --- UPDATED: Call the spread-aware RiskManager method ---
+                            sl_price, tp_price = risk_manager.calculate_sl_tp(
                                 order_type=signal,
-                                volume=float(symbol_config['volume']),
-                                sl_price=sl_price,
-                                tp_price=tp_price,
-                                magic_number=magic_number
+                                current_ask=tick.ask,
+                                current_bid=tick.bid
                             )
+
+                            # Only proceed if the SL/TP calculation was successful
+                            if sl_price and tp_price:
+                                log.info(f"Calculated SL: {sl_price}, TP: {tp_price} for {symbol}")
+
+                                connector.place_order(
+                                    symbol=symbol,
+                                    order_type=signal,
+                                    volume=float(symbol_config['volume']),
+                                    sl_price=sl_price,
+                                    tp_price=tp_price,
+                                    magic_number=magic_number
+                                )
                     else:
                         current_pos = open_positions[0]
                         pos_type = "BUY" if current_pos.type == mt5.ORDER_TYPE_BUY else "SELL"
