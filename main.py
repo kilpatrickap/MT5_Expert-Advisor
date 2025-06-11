@@ -58,13 +58,16 @@ def run():
                     # Load symbol-specific parameters from its config section
                     symbol_config = config[symbol]
 
-                    # --- THE FIX: Get symbol info and point value inside the loop ---
+                    # --- THE FIX: Fetch all required symbol properties at once ---
                     symbol_info = mt5.symbol_info(symbol)
                     if not symbol_info:
                         log.warning(
                             f"Could not get info for {symbol}, skipping this cycle. Ensure it's in Market Watch.")
                         continue
+
                     point = symbol_info.point
+                    stops_level = symbol_info.stops_level
+                    log.debug(f"{symbol} | Point: {point} | Stops Level: {stops_level} points")
                     # --- END FIX ---
 
                     # Initialize components with symbol-specific values
@@ -73,22 +76,23 @@ def run():
                         slow_ma_period=int(symbol_config['slow_ma_period'])
                     )
 
-                    # --- THE FIX: Pass the 'point' to the RiskManager ---
+                    # --- THE FIX: Pass all required info to the RiskManager ---
                     risk_manager = RiskManager(
                         symbol=symbol,
                         stop_loss_pips=int(symbol_config['stop_loss_pips']),
                         risk_reward_ratio=float(symbol_config['risk_reward_ratio']),
-                        point=point  # Pass the fetched point value
+                        point=point,
+                        stops_level=stops_level  # Pass the broker's minimum stop distance
                     )
 
                     # Check for open positions for THIS EA's symbol and magic number
                     open_positions = connector.get_open_positions(symbol=symbol, magic_number=magic_number)
 
                     # Fetch data and generate signal
-                    historical_data = connector.get_historical_data(symbol, symbol_config['timeframe'],
-                                                                    strategy.slow_ma_period + 5)
+                    timeframe_str = symbol_config['timeframe']
+                    historical_data = connector.get_historical_data(timeframe_str, strategy.slow_ma_period + 5)
                     signal = strategy.get_signal(historical_data)
-                    log.info(f"Strategy Signal for {symbol}: {signal}")
+                    log.info(f"Strategy Signal for {symbol} on {timeframe_str}: {signal}")
 
                     # --- Decision Logic ---
                     if not open_positions:
