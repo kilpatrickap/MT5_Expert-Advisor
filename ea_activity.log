@@ -577,3 +577,210 @@
 2025-06-11 08:55:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
 2025-06-11 08:55:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
 2025-06-11 08:55:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 08:56:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 08:56:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 08:56:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 08:56:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 08:56:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 08:56:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 08:56:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 08:56:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 08:56:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 08:56:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 08:56:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 08:56:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 08:57:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 08:57:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 08:57:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 08:57:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 08:57:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 08:57:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 08:57:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 08:57:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 08:57:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 08:57:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 08:57:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 08:57:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 08:58:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 08:58:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 08:58:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 08:58:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 08:58:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 08:58:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 08:58:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 08:58:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 08:58:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 08:58:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 08:58:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 08:58:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 08:59:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 08:59:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 08:59:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 08:59:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 08:59:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 08:59:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 08:59:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 08:59:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 08:59:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 08:59:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 08:59:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 08:59:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:00:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:00:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:00:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:00:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:00:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:00:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:00:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:00:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:00:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:00:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:00:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:00:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:01:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:01:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:01:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:01:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:01:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:01:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:01:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:01:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:01:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:01:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:01:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:01:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:02:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:02:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:02:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:02:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:02:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:02:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:02:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:02:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:02:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:02:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:02:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:02:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:03:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:03:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:03:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:03:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:03:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:03:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:03:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:03:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:03:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:03:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:03:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:03:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:04:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:04:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:04:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:04:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:04:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:04:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:04:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:04:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:04:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:04:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:04:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:04:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:05:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:05:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:05:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:05:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:05:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:05:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:05:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:05:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:05:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:05:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:05:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:05:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:06:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:06:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:06:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:06:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:06:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:06:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:06:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:06:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:06:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:06:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:06:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:06:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:07:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:07:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:07:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:07:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:07:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:07:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:07:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:07:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:07:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:07:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:07:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:07:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:08:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:08:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:08:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:08:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:08:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:08:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:08:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:08:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:08:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:08:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:08:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:08:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:09:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:09:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:09:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:09:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:09:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:09:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:09:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:09:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:09:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:09:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:09:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:09:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:10:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:10:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:10:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:10:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:10:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:10:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:10:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:10:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:10:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:10:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:10:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:10:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:11:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:11:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:11:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:11:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:11:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:11:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:11:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:11:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:11:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:11:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:11:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:11:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:12:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:12:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:12:14 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:12:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:12:14 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:12:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:12:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 09:12:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 09:12:44 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 09:12:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 09:12:44 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 09:12:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 09:12:54 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-11 09:12:54 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-11 09:12:54 - MT5_EA - INFO - Python Expert Advisor has been shut down.
