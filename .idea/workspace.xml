@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa27ddf4-d4aa-4052-9a95-7ecc4b3ac13d" name="Changes" comment="final 6.">
+    <list default="true" id="aa27ddf4-d4aa-4052-9a95-7ecc4b3ac13d" name="Changes" comment="Done I think?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -301,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749662865140</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Done I think?">
+      <option name="closed" value="true" />
+      <created>1749663441310</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1749663441310</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,6 +339,7 @@
     <MESSAGE value="final 4." />
     <MESSAGE value="final 5." />
     <MESSAGE value="final 6." />
-    <option name="LAST_COMMIT_MESSAGE" value="final 6." />
+    <MESSAGE value="Done I think?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done I think?" />
   </component>
 </project>
