@@ -12385,3 +12385,108 @@ AttributeError: 'SymbolInfo' object has no attribute 'stops_level'
 2025-06-11 18:33:30 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
 2025-06-11 18:33:30 - MT5_EA - INFO - Shutting down MT5 connection.
 2025-06-11 18:33:30 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-11 18:38:45 - MT5_EA - INFO - --- Starting Backtest ---
+2025-06-11 18:38:45 - MT5_EA - INFO - Connecting to MT5 to fetch data for EURUSD from 2023-01-01 to 2025-06-10...
+2025-06-11 18:38:45 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:38:47 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-11 18:38:49 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-11 18:38:49 - MT5_EA - INFO - Disconnected from MT5. Proceeding with offline simulation.
+2025-06-11 18:38:49 - MT5_EA - INFO - Successfully prepared 15141 data points for the simulation period.
+2025-06-11 18:40:08 - MT5_EA - INFO - --- Starting Backtest ---
+2025-06-11 18:40:08 - MT5_EA - INFO - Connecting to MT5 to fetch data for EURUSD from 2023-01-01 to 2025-06-10...
+2025-06-11 18:40:08 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:40:08 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-11 18:40:08 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-11 18:40:08 - MT5_EA - INFO - Disconnected from MT5. Proceeding with offline simulation.
+2025-06-11 18:40:08 - MT5_EA - ERROR - Failed to fetch historical data for the specified range.
+2025-06-11 18:40:35 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-11 18:40:35 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:40:35 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-11 18:40:35 - MT5_EA - INFO - EA configured to trade symbols: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCAD']
+2025-06-11 18:40:35 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 18:40:35 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 18:40:35 - MT5_EA - INFO - Strategy Signal for EURUSD on M5: HOLD
+2025-06-11 18:40:35 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 18:40:35 - MT5_EA - INFO - Strategy Signal for GBPUSD on M5: HOLD
+2025-06-11 18:40:35 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 18:40:35 - MT5_EA - INFO - Strategy Signal for USDJPY on M5: HOLD
+2025-06-11 18:40:35 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 18:40:35 - MT5_EA - INFO - Strategy Signal for USDCAD on M5: HOLD
+2025-06-11 18:40:35 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 18:40:41 - MT5_EA - INFO - --- Starting Backtest ---
+2025-06-11 18:40:41 - MT5_EA - INFO - Connecting to MT5 to fetch data for EURUSD from 2023-01-01 to 2025-06-10...
+2025-06-11 18:40:41 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:40:41 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-11 18:40:41 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-11 18:40:41 - MT5_EA - INFO - Disconnected from MT5. Proceeding with offline simulation.
+2025-06-11 18:40:41 - MT5_EA - ERROR - Failed to fetch historical data for the specified range.
+2025-06-11 18:40:50 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-11 18:40:50 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-11 18:40:50 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-11 18:40:56 - MT5_EA - INFO - --- Starting Backtest ---
+2025-06-11 18:40:56 - MT5_EA - INFO - Connecting to MT5 to fetch data for EURUSD from 2023-01-01 to 2025-06-10...
+2025-06-11 18:40:56 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:40:56 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-11 18:40:56 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-11 18:40:56 - MT5_EA - INFO - Disconnected from MT5. Proceeding with offline simulation.
+2025-06-11 18:40:56 - MT5_EA - ERROR - Failed to fetch historical data for the specified range.
+2025-06-11 18:43:15 - MT5_EA - INFO - --- Starting Backtest ---
+2025-06-11 18:43:15 - MT5_EA - INFO - Connecting to MT5 to fetch data for EURUSD from 2025-01-01 to 2025-06-10...
+2025-06-11 18:43:15 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:43:15 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-11 18:43:15 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-11 18:43:15 - MT5_EA - INFO - Disconnected from MT5. Proceeding with offline simulation.
+2025-06-11 18:43:15 - MT5_EA - INFO - Successfully prepared 32438 data points for the simulation period.
+2025-06-11 18:43:15 - MT5_EA - INFO - Starting simulation loop...
+2025-06-11 18:43:58 - MT5_EA - INFO - Simulation complete. Generating report...
+2025-06-11 18:46:27 - MT5_EA - INFO - --- Starting Backtest ---
+2025-06-11 18:46:27 - MT5_EA - INFO - Connecting to MT5 to fetch data for EURUSD from 2025-01-01 to 2025-06-10...
+2025-06-11 18:46:27 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:46:27 - MT5_EA - ERROR - MT5 initialize() failed, error code = (-6, 'Terminal: Authorization failed')
+2025-06-11 18:46:27 - MT5_EA - ERROR - Could not connect to MT5. Aborting backtest.
+2025-06-11 18:46:48 - MT5_EA - INFO - --- Starting Backtest ---
+2025-06-11 18:46:48 - MT5_EA - INFO - Connecting to MT5 to fetch data for EURUSD from 2025-01-01 to 2025-06-10...
+2025-06-11 18:46:48 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:46:48 - MT5_EA - ERROR - MT5 initialize() failed, error code = (-6, 'Terminal: Authorization failed')
+2025-06-11 18:46:48 - MT5_EA - ERROR - Could not connect to MT5. Aborting backtest.
+2025-06-11 18:47:26 - MT5_EA - INFO - --- Starting Backtest ---
+2025-06-11 18:47:26 - MT5_EA - INFO - Connecting to MT5 to fetch data for EURUSD from 2025-01-01 to 2025-06-10...
+2025-06-11 18:47:26 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:47:26 - MT5_EA - ERROR - MT5 initialize() failed, error code = (-6, 'Terminal: Authorization failed')
+2025-06-11 18:47:26 - MT5_EA - ERROR - Could not connect to MT5. Aborting backtest.
+2025-06-11 18:47:45 - MT5_EA - INFO - --- Starting Backtest ---
+2025-06-11 18:47:45 - MT5_EA - INFO - Connecting to MT5 to fetch data for EURUSD from 2025-01-01 to 2025-06-10...
+2025-06-11 18:47:45 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:47:45 - MT5_EA - ERROR - MT5 initialize() failed, error code = (-6, 'Terminal: Authorization failed')
+2025-06-11 18:47:45 - MT5_EA - ERROR - Could not connect to MT5. Aborting backtest.
+2025-06-11 18:47:51 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-11 18:47:51 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:47:51 - MT5_EA - ERROR - MT5 initialize() failed, error code = (-6, 'Terminal: Authorization failed')
+2025-06-11 18:47:51 - MT5_EA - ERROR - Failed to connect to MT5. Exiting.
+2025-06-11 18:49:09 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-11 18:49:09 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:49:09 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-11 18:49:09 - MT5_EA - INFO - EA configured to trade symbols: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCAD']
+2025-06-11 18:49:09 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 18:49:09 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 18:49:09 - MT5_EA - INFO - Strategy Signal for EURUSD on M5: HOLD
+2025-06-11 18:49:09 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 18:49:09 - MT5_EA - INFO - Strategy Signal for GBPUSD on M5: HOLD
+2025-06-11 18:49:09 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 18:49:09 - MT5_EA - INFO - Strategy Signal for USDJPY on M5: HOLD
+2025-06-11 18:49:09 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 18:49:09 - MT5_EA - INFO - Strategy Signal for USDCAD on M5: HOLD
+2025-06-11 18:49:09 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 18:49:19 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-11 18:49:19 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-11 18:49:19 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-11 18:49:24 - MT5_EA - INFO - --- Starting Backtest ---
+2025-06-11 18:49:24 - MT5_EA - INFO - Connecting to MT5 to fetch data for EURUSD from 2025-01-01 to 2025-06-10...
+2025-06-11 18:49:24 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 18:49:24 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-11 18:49:24 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-11 18:49:24 - MT5_EA - INFO - Disconnected from MT5. Proceeding with offline simulation.
+2025-06-11 18:49:24 - MT5_EA - INFO - Successfully prepared 32438 data points for the simulation period.
+2025-06-11 18:49:24 - MT5_EA - INFO - Starting simulation loop...
+2025-06-11 18:50:30 - MT5_EA - INFO - Simulation complete. Generating report...
+2025-06-11 18:50:30 - MT5_EA - INFO - Detailed trade log saved to 'backtest_results_EURUSD_M5_2025-01-01_to_2025-06-10.csv'
