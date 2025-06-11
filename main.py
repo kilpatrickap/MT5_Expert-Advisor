@@ -34,7 +34,6 @@ def run():
         log.error("Failed to connect to MT5. Exiting.")
         return
 
-    # Get the list of symbols from the config file
     try:
         symbols_to_trade = [s.strip() for s in trade_params['symbols'].split(',')]
         magic_number = int(trade_params['magic_number'])
@@ -50,15 +49,12 @@ def run():
         while True:
             log.info("-------------------- New Trading Cycle --------------------")
 
-            # Iterate over each symbol to trade
             for symbol in symbols_to_trade:
                 log.info(f"--- Processing symbol: {symbol} ---")
 
                 try:
-                    # Load symbol-specific parameters from its config section
                     symbol_config = config[symbol]
 
-                    # --- THE FIX: Fetch all required symbol properties at once ---
                     symbol_info = mt5.symbol_info(symbol)
                     if not symbol_info:
                         log.warning(
@@ -66,35 +62,30 @@ def run():
                         continue
 
                     point = symbol_info.point
-                    stops_level = symbol_info.stops_level
-                    log.debug(f"{symbol} | Point: {point} | Stops Level: {stops_level} points")
-                    # --- END FIX ---
+                    # --- THE FIX: Use the correct attribute name 'trade_stops_level' ---
+                    stops_level = symbol_info.trade_stops_level
+                    log.debug(f"{symbol} | Point: {point} | Trade Stops Level: {stops_level} points")
 
-                    # Initialize components with symbol-specific values
                     strategy = MACrossoverStrategy(
                         fast_ma_period=int(symbol_config['fast_ma_period']),
                         slow_ma_period=int(symbol_config['slow_ma_period'])
                     )
 
-                    # --- THE FIX: Pass all required info to the RiskManager ---
                     risk_manager = RiskManager(
                         symbol=symbol,
                         stop_loss_pips=int(symbol_config['stop_loss_pips']),
                         risk_reward_ratio=float(symbol_config['risk_reward_ratio']),
                         point=point,
-                        stops_level=stops_level  # Pass the broker's minimum stop distance
+                        stops_level=stops_level
                     )
 
-                    # Check for open positions for THIS EA's symbol and magic number
                     open_positions = connector.get_open_positions(symbol=symbol, magic_number=magic_number)
 
-                    # Fetch data and generate signal
                     timeframe_str = symbol_config['timeframe']
-                    historical_data = connector.get_historical_data(timeframe_str, strategy.slow_ma_period + 5)
+                    historical_data = connector.get_historical_data(symbol, timeframe_str, strategy.slow_ma_period + 5)
                     signal = strategy.get_signal(historical_data)
                     log.info(f"Strategy Signal for {symbol} on {timeframe_str}: {signal}")
 
-                    # --- Decision Logic ---
                     if not open_positions:
                         if signal in ["BUY", "SELL"]:
                             entry_price = mt5.symbol_info_tick(symbol).ask if signal == "BUY" else mt5.symbol_info_tick(
@@ -111,7 +102,7 @@ def run():
                                 magic_number=magic_number
                             )
                     else:
-                        current_pos = open_positions[0]  # Assuming one position per symbol
+                        current_pos = open_positions[0]
                         pos_type = "BUY" if current_pos.type == mt5.ORDER_TYPE_BUY else "SELL"
 
                         if (signal == "BUY" and pos_type == "SELL") or \
@@ -127,9 +118,8 @@ def run():
                     continue
                 except Exception as e:
                     log.error(f"An unexpected error occurred while processing {symbol}: {e}", exc_info=True)
-                    continue  # Move to the next symbol
+                    continue
 
-            # Wait for the next cycle
             sleep_duration = int(trade_params['main_loop_sleep_seconds'])
             log.info(f"Cycle complete. Sleeping for {sleep_duration} seconds...")
             time.sleep(sleep_duration)
@@ -139,7 +129,6 @@ def run():
     except Exception as e:
         log.error(f"A critical error occurred in the main loop: {e}", exc_info=True)
     finally:
-        # --- Cleanup ---
         connector.disconnect()
         log.info("Python Expert Advisor has been shut down.")
 
