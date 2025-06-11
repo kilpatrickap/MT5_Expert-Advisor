@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa27ddf4-d4aa-4052-9a95-7ecc4b3ac13d" name="Changes" comment="Demo test.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtest_results_USDCAD_2023-01-01_to_2025-06-10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backtest_results_USDCAD_2023-01-01_to_2025-06-10.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtest_results_USDJPY_2023-01-01_to_2025-06-10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backtest_results_USDJPY_2023-01-01_to_2025-06-10.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ea_activity.log" beforeDir="false" afterPath="$PROJECT_DIR$/ea_activity.log" afterDir="false" />
     </list>
@@ -62,7 +60,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.backtest">
+  <component name="RunManager" selected="Python.main">
     <configuration name="backtest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mt5_expert_advisor" />
       <option name="ENV_FILES" value="" />
@@ -109,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.backtest" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.backtest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +199,31 @@
       <option name="project" value="LOCAL" />
       <updated>1749645170132</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Demo test.">
+      <option name="closed" value="true" />
+      <created>1749647252162</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749647252162</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Demo test.">
+      <option name="closed" value="true" />
+      <created>1749647617629</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1749647617629</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Demo test.">
+      <option name="closed" value="true" />
+      <created>1749647868016</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1749647868016</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

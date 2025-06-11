@@ -5260,3 +5260,1688 @@ TypeError: RiskManager.__init__() missing 1 required positional argument: 'point
 2025-06-11 13:17:36 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
 2025-06-11 13:17:36 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
 2025-06-11 13:17:36 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:18:06 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:18:06 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:18:06 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:18:06 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:18:06 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:18:06 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:18:06 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:18:06 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:18:06 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:18:06 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:18:32 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-11 13:18:32 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-11 13:18:32 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-11 13:19:17 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-11 13:19:17 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 13:19:17 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-11 13:19:17 - MT5_EA - INFO - EA configured to trade symbols: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCAD']
+2025-06-11 13:19:17 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:19:17 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:19:17 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:19:17 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:19:17 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:19:17 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:19:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:19:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:19:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:19:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:19:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:19:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:19:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:19:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:19:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:19:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:19:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:19:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:19:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:19:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:20:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:20:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:20:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:20:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:20:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:20:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:20:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:20:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:20:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:20:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:20:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:20:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:20:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:20:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:20:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:20:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:20:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:20:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:20:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:20:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:21:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:21:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:21:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:21:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:21:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:21:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:21:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:21:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:21:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:21:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:21:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:21:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:21:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:21:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:21:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:21:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:21:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:21:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:21:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:21:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:22:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:22:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:22:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:22:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:22:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:22:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:22:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:22:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:22:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:22:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:22:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:22:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:22:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:22:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:22:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:22:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:22:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:22:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:22:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:22:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:23:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:23:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:23:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:23:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:23:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:23:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:23:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:23:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:23:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:23:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:23:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:23:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:23:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:23:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:23:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:23:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:23:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:23:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:23:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:23:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:24:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:24:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:24:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:24:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:24:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:24:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:24:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:24:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:24:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:24:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:24:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:24:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:24:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:24:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:24:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:24:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:24:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:24:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:24:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:24:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:25:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:25:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:25:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:25:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:25:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:25:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:25:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:25:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:25:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:25:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:25:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:25:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:25:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:25:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:25:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:25:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:25:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:25:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:25:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:25:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:26:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:26:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:26:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:26:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:26:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:26:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:26:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:26:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:26:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:26:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:26:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:26:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:26:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:26:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:26:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:26:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:26:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:26:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:26:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:26:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:27:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:27:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:27:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:27:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:27:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:27:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:27:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:27:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:27:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:27:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:27:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:27:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:27:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:27:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:27:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:27:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:27:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:27:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:27:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:27:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:28:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:28:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:28:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:28:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:28:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:28:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:28:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:28:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:28:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:28:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:28:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:28:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:28:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:28:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:28:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:28:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:28:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:28:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:28:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:28:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:29:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:29:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:29:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:29:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:29:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:29:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:29:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:29:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:29:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:29:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:29:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:29:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:29:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:29:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:29:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:29:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:29:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:29:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:29:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:29:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:30:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:30:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:30:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:30:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:30:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:30:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:30:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:30:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:30:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:30:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:30:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:30:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:30:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:30:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:30:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:30:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:30:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:30:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:30:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:30:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:31:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:31:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:31:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:31:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:31:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:31:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:31:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:31:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:31:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:31:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:31:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:31:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:31:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:31:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:31:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:31:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:31:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:31:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:31:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:31:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:32:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:32:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:32:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:32:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:32:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:32:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:32:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:32:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:32:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:32:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:32:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:32:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:32:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:32:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:32:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:32:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:32:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:32:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:32:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:32:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:33:18 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:33:18 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:33:18 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:33:18 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:33:18 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:33:18 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:33:18 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:33:18 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:33:18 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:33:18 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:33:48 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:33:48 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:33:48 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:33:48 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:33:48 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:33:48 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:33:48 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:33:48 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:33:48 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:33:48 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:34:23 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:34:23 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:34:23 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:34:23 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:34:23 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:34:23 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:34:23 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:34:23 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:34:23 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:34:23 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:34:53 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:34:53 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:34:53 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:34:53 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:34:53 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:34:53 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:34:53 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:34:53 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:34:53 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:34:53 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:35:23 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:35:23 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:35:23 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:35:23 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:35:23 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:35:23 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:35:23 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:35:23 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:35:23 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:35:23 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:35:53 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:35:53 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:35:53 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:35:53 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:35:53 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:35:53 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:35:53 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:35:53 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:35:53 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:35:53 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:36:23 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:36:23 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:36:23 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:36:23 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:36:23 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:36:23 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:36:23 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:36:23 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:36:23 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:36:23 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:36:53 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:36:53 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:36:53 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:36:53 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:36:53 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:36:53 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:36:53 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:36:53 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:36:53 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:36:53 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:37:23 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:37:23 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:37:23 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:37:23 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:37:23 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:37:23 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:37:23 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:37:23 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:37:23 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:37:23 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:37:53 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:37:53 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:37:53 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:37:53 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:37:53 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:37:53 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:37:53 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:37:53 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:37:53 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:37:53 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:38:23 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:38:23 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:38:23 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:38:23 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:38:23 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:38:23 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:38:23 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:38:23 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:38:23 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:38:23 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:38:53 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:38:53 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:38:53 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:38:53 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:38:53 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:38:53 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:38:53 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:38:53 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:38:53 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:38:53 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:39:23 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:39:23 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:39:23 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:39:23 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:39:23 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:39:23 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:39:23 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:39:23 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:39:23 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:39:23 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:39:53 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:39:53 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:39:53 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:39:53 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:39:53 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:39:53 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:39:53 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:39:53 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:39:53 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:39:53 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:40:23 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:40:23 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:40:23 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:40:23 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:40:23 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:40:23 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:40:23 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:40:23 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:40:23 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:40:23 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:40:53 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:40:53 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:40:53 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:40:53 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:40:53 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:40:53 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:40:53 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:40:53 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:40:53 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:40:53 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:41:23 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:41:23 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:41:23 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:41:23 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:41:23 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:41:23 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:41:23 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:41:23 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:41:23 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:41:23 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:41:53 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:41:53 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:41:53 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:41:53 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:41:53 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:41:53 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:41:53 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:41:53 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:41:53 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:41:53 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:42:23 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:42:23 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:42:23 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:42:23 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:42:23 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:42:23 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:42:23 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:42:23 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:42:23 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:42:23 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:42:53 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:42:53 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:42:53 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:42:53 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:42:53 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:42:53 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:42:53 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:42:53 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:42:53 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:42:53 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:43:23 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:43:23 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:43:23 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:43:23 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:43:23 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:43:23 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:43:23 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:43:23 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:43:23 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:43:23 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:43:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:43:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:43:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:43:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:43:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:43:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:43:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:43:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:43:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:43:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:44:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:44:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:44:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:44:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:44:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:44:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:44:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:44:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:44:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:44:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:44:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:44:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:44:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:44:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:44:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:44:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:44:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:44:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:44:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:44:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:45:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:45:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:45:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:45:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:45:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:45:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:45:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:45:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:45:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:45:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:45:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:45:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:45:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:45:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:45:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:45:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:45:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:45:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:45:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:45:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:46:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:46:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:46:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:46:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:46:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:46:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:46:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:46:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:46:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:46:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:46:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:46:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:46:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:46:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:46:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:46:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:46:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:46:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:46:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:46:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:47:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:47:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:47:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:47:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:47:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:47:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:47:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:47:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:47:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:47:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:47:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:47:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:47:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:47:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:47:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:47:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:47:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:47:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:47:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:47:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:48:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:48:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:48:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:48:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:48:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:48:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:48:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:48:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:48:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:48:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:48:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:48:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:48:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:48:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:48:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:48:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:48:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:48:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:48:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:48:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:49:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:49:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:49:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:49:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:49:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:49:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:49:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:49:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:49:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:49:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:49:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:49:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:49:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:49:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:49:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:49:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:49:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:49:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:49:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:49:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:50:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:50:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:50:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:50:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:50:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:50:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:50:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:50:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:50:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:50:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:50:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:50:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:50:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:50:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:50:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:50:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:50:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:50:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:50:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:50:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:51:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:51:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:51:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:51:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:51:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:51:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:51:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:51:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:51:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:51:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:51:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:51:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:51:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:51:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:51:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:51:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:51:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:51:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:51:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:51:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:52:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:52:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:52:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:52:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:52:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:52:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:52:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:52:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:52:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:52:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:52:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:52:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:52:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:52:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:52:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:52:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:52:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:52:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:52:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:52:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:53:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:53:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:53:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:53:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:53:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:53:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:53:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:53:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:53:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:53:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:53:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:53:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:53:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:53:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:53:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:53:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:53:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:53:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:53:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:53:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:54:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:54:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:54:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:54:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:54:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:54:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:54:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:54:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:54:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:54:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:54:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:54:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:54:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:54:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:54:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:54:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:54:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:54:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:54:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:54:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:55:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:55:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:55:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:55:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:55:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:55:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:55:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:55:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:55:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:55:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:55:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:55:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:55:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:55:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:55:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:55:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:55:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:55:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:55:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:55:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:56:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:56:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:56:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:56:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:56:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:56:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:56:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:56:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:56:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:56:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:56:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:56:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:56:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:56:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:56:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:56:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:56:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:56:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:56:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:56:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:57:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:57:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:57:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:57:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:57:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:57:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:57:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:57:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:57:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:57:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:57:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:57:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:57:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:57:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:57:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:57:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:57:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:57:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:57:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:57:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:58:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:58:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:58:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:58:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:58:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:58:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:58:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:58:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:58:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:58:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:58:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:58:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:58:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:58:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:58:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:58:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:58:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:58:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:58:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:58:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:59:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:59:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:59:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:59:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:59:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:59:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:59:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:59:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:59:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:59:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 13:59:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 13:59:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 13:59:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 13:59:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 13:59:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 13:59:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 13:59:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 13:59:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 13:59:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 13:59:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:00:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:00:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:00:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:00:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:00:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:00:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:00:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:00:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:00:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:00:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:00:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:00:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:00:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:00:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:00:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:00:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:00:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:00:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:00:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:00:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:01:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:01:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:01:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:01:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:01:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:01:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:01:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:01:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:01:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:01:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:01:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:01:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:01:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:01:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:01:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:01:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:01:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:01:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:01:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:01:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:02:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:02:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:02:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:02:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:02:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:02:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:02:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:02:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:02:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:02:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:02:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:02:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:02:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:02:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:02:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:02:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:02:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:02:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:02:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:02:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:03:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:03:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:03:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:03:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:03:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:03:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:03:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:03:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:03:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:03:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:03:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:03:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:03:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:03:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:03:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:03:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:03:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:03:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:03:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:03:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:04:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:04:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:04:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:04:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:04:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:04:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:04:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:04:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:04:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:04:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:04:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:04:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:04:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:04:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:04:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:04:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:04:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:04:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:04:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:04:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:05:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:05:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:05:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:05:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:05:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:05:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:05:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:05:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:05:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:05:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:05:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:05:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:05:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:05:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:05:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:05:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:05:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:05:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:05:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:05:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:06:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:06:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:06:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:06:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:06:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:06:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:06:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:06:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:06:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:06:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:06:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:06:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:06:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:06:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:06:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:06:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:06:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:06:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:06:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:06:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:07:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:07:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:07:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:07:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:07:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:07:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:07:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:07:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:07:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:07:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:07:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:07:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:07:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:07:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:07:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:07:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:07:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:07:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:07:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:07:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:08:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:08:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:08:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:08:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:08:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:08:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:08:24 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:08:24 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:08:24 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:08:24 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:08:54 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:08:54 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:08:54 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:08:54 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:08:54 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:08:54 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:08:54 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:08:54 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:08:54 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:08:54 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:09:24 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:09:24 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:09:24 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:09:24 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:09:24 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:09:24 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:09:24 - MT5_EA - INFO - Strategy Signal for USDJPY: BUY
+2025-06-11 14:09:24 - MT5_EA - INFO - Calculated SL: 144.809, TP: 145.129 for USDJPY
+2025-06-11 14:09:24 - MT5_EA - INFO - Attempting to place order: USDJPY, Type: BUY, Vol: 0.01
+2025-06-11 14:09:25 - MT5_EA - INFO - Order placed successfully. Ticket: 3925491092, Price: 144.909, Volume: 0.01
+2025-06-11 14:09:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:09:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:09:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:09:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:09:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:09:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:09:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:09:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:09:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:09:55 - MT5_EA - INFO - Strategy Signal for USDJPY: BUY
+2025-06-11 14:09:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:09:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:09:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:09:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:10:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:10:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:10:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:10:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:10:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: BUY
+2025-06-11 14:10:25 - MT5_EA - INFO - Calculated SL: 1.0, TP: 1.0 for GBPUSD
+2025-06-11 14:10:25 - MT5_EA - INFO - Attempting to place order: GBPUSD, Type: BUY, Vol: 0.01
+2025-06-11 14:10:25 - MT5_EA - ERROR - Order send failed, retcode=10016 - Invalid stops
+2025-06-11 14:10:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:10:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:10:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:10:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:10:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:10:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:10:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:10:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:10:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:10:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:10:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: BUY
+2025-06-11 14:10:55 - MT5_EA - INFO - Calculated SL: 1.0, TP: 1.0 for GBPUSD
+2025-06-11 14:10:55 - MT5_EA - INFO - Attempting to place order: GBPUSD, Type: BUY, Vol: 0.01
+2025-06-11 14:10:55 - MT5_EA - ERROR - Order send failed, retcode=10016 - Invalid stops
+2025-06-11 14:10:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:10:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:10:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:10:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:10:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:10:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:11:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:11:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:11:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:11:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:11:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:11:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:11:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:11:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:11:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:11:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:11:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:11:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:11:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:11:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:11:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:11:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:11:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:11:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:11:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:11:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:11:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:11:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:12:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:12:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:12:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:12:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:12:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:12:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:12:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:12:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:12:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:12:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:12:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:12:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:12:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:12:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:12:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:12:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:12:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:12:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:12:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:12:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:12:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:12:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:13:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:13:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:13:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:13:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:13:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:13:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:13:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:13:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:13:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:13:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:13:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:13:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:13:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:13:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:13:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:13:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:13:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:13:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:13:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:13:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:13:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:13:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:14:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:14:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:14:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:14:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:14:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:14:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:14:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:14:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:14:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:14:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:14:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:14:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:14:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:14:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:14:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:14:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:14:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:14:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:14:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:14:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:14:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:14:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:15:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:15:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:15:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:15:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:15:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:15:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:15:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:15:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:15:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:15:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:15:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:15:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:15:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:15:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:15:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:15:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:15:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:15:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:15:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:15:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:15:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:15:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:16:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:16:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:16:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:16:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:16:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:16:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:16:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:16:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:16:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:16:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:16:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:16:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:16:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:16:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:16:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:16:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:16:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:16:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:16:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:16:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:16:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:16:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:17:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:17:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:17:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:17:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:17:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:17:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:17:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:17:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:17:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:17:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:17:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:17:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:17:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:17:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:17:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:17:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:17:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:17:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:17:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:17:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:17:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:17:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:18:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:18:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:18:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:18:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:18:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:18:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:18:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:18:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:18:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:18:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:18:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:18:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:18:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:18:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:18:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:18:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:18:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:18:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:18:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:18:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:18:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:18:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:19:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:19:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:19:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:19:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:19:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:19:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:19:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:19:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:19:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:19:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:19:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:19:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:19:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:19:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:19:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:19:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:19:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:19:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:19:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:19:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:19:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:19:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:20:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:20:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:20:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:20:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:20:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:20:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:20:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:20:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:20:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:20:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:20:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:20:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:20:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:20:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:20:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:20:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:20:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:20:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:20:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:20:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:20:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:20:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:21:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:21:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:21:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:21:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:21:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:21:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:21:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:21:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:21:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:21:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:21:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:21:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:21:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:21:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:21:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:21:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:21:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:21:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:21:55 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:21:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:21:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:21:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:22:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:22:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:22:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:22:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:22:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:22:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:22:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:22:25 - MT5_EA - INFO - Holding current BUY position for USDJPY. No action needed.
+2025-06-11 14:22:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:22:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:22:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:22:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:22:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:22:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:22:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:22:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:22:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:22:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:22:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:22:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:22:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:23:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:23:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:23:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:23:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:23:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:23:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:23:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:23:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:23:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:23:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:23:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:23:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:23:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:23:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:23:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:23:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:23:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:23:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:23:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:23:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:24:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:24:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:24:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:24:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:24:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:24:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:24:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:24:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:24:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:24:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:24:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:24:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:24:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:24:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:24:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:24:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:24:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:24:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:24:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:24:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:25:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:25:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:25:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:25:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:25:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:25:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:25:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:25:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:25:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:25:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:25:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:25:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:25:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:25:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:25:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:25:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:25:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:25:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:25:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:25:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:26:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:26:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:26:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:26:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:26:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:26:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:26:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:26:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:26:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:26:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:26:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:26:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:26:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:26:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:26:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:26:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:26:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:26:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:26:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:26:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:27:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:27:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:27:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:27:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:27:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:27:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:27:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:27:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:27:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:27:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:27:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:27:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:27:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:27:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:27:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:27:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:27:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:27:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:27:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:27:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:28:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:28:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:28:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:28:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:28:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:28:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:28:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:28:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:28:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:28:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:28:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:28:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:28:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:28:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:28:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:28:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:28:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:28:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:28:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:28:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:29:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:29:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:29:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:29:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:29:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:29:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:29:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:29:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:29:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:29:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:29:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:29:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:29:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:29:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:29:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:29:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:29:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:29:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:29:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:29:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:30:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:30:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:30:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:30:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:30:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:30:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:30:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:30:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:30:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:30:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:30:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:30:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:30:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:30:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:30:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:30:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:30:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:30:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:30:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:30:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:31:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:31:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:31:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:31:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:31:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:31:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:31:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:31:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:31:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:31:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:31:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:31:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:31:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:31:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:31:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:31:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:31:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:31:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:31:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:31:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:32:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:32:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:32:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:32:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:32:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:32:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:32:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:32:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:32:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:32:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:32:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:32:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:32:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:32:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:32:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:32:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:32:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:32:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:32:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:32:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:33:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:33:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:33:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:33:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:33:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:33:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:33:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:33:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:33:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:33:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:33:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:33:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:33:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:33:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:33:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:33:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:33:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:33:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:33:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:33:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:34:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:34:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:34:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:34:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:34:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:34:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:34:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:34:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:34:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:34:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:34:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:34:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:34:55 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:34:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:34:55 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:34:55 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:34:55 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:34:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:34:55 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:34:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:35:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:35:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:35:25 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:35:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:35:25 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:35:25 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:35:25 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:35:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:35:25 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:35:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:35:48 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-11 14:35:48 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-11 14:35:48 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-11 14:41:32 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-11 14:41:32 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 14:41:32 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-11 14:41:32 - MT5_EA - INFO - EA configured to trade symbols: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCAD']
+2025-06-11 14:41:32 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:41:32 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:41:32 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:41:32 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:41:32 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:41:32 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:41:32 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:41:32 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:41:32 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:41:32 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:42:02 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:42:02 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:42:02 - MT5_EA - INFO - Strategy Signal for EURUSD: BUY
+2025-06-11 14:42:02 - MT5_EA - INFO - Calculated SL: 1.0, TP: 1.0 for EURUSD
+2025-06-11 14:42:02 - MT5_EA - INFO - Attempting to place order: EURUSD, Type: BUY, Vol: 0.01
+2025-06-11 14:42:02 - MT5_EA - ERROR - Order send failed, retcode=10016 - Invalid stops
+2025-06-11 14:42:02 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:42:02 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:42:02 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:42:02 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:42:02 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:42:02 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:42:02 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:42:32 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:42:32 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:42:32 - MT5_EA - INFO - Strategy Signal for EURUSD: BUY
+2025-06-11 14:42:32 - MT5_EA - INFO - Calculated SL: 1.0, TP: 1.0 for EURUSD
+2025-06-11 14:42:32 - MT5_EA - INFO - Attempting to place order: EURUSD, Type: BUY, Vol: 0.01
+2025-06-11 14:42:32 - MT5_EA - ERROR - Order send failed, retcode=10016 - Invalid stops
+2025-06-11 14:42:32 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:42:32 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:42:32 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:42:32 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:42:32 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:42:32 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:42:32 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:43:02 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:43:02 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:43:02 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:43:02 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:43:02 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:43:02 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:43:02 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:43:02 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:43:02 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:43:02 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:43:32 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:43:32 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:43:32 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:43:32 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:43:32 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:43:32 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:43:32 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:43:32 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:43:32 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:43:32 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:44:02 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:44:02 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:44:02 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:44:02 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:44:02 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:44:02 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:44:02 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:44:02 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:44:02 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:44:02 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:44:32 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:44:32 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:44:32 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:44:32 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:44:32 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:44:32 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:44:32 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:44:32 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:44:32 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:44:32 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:45:02 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:45:02 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:45:02 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:45:02 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:45:02 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:45:02 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:45:03 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:45:03 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:45:03 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:45:03 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 14:45:33 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 14:45:33 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 14:45:33 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 14:45:33 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 14:45:33 - MT5_EA - INFO - Strategy Signal for GBPUSD: HOLD
+2025-06-11 14:45:33 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 14:45:33 - MT5_EA - INFO - Strategy Signal for USDJPY: HOLD
+2025-06-11 14:45:33 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 14:45:33 - MT5_EA - INFO - Strategy Signal for USDCAD: HOLD
+2025-06-11 14:45:33 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
