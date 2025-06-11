@@ -7574,3 +7574,169 @@ AttributeError: 'SymbolInfo' object has no attribute 'stops_level'
 2025-06-11 15:15:27 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
 2025-06-11 15:15:27 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
 2025-06-11 15:15:27 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:15:57 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:15:57 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:15:57 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:15:57 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:15:57 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:15:57 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:15:57 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:15:57 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:15:57 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:15:57 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:16:27 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:16:27 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:16:27 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:16:27 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:16:27 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:16:27 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:16:27 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:16:27 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:16:27 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:16:27 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:16:57 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:16:57 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:16:57 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:16:57 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:16:57 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:16:57 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:16:57 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:16:57 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:16:57 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:16:57 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:17:27 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:17:27 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:17:27 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:17:27 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:17:27 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:17:27 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:17:27 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:17:27 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:17:27 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: SELL
+2025-06-11 15:17:27 - MT5_EA - WARNING - Configured SL for USDCAD is too tight for current spread(27.0) + stops_level(0). Original: 10 pips, Required: 27.0 pips. SL automatically adjusted.
+2025-06-11 15:17:27 - MT5_EA - INFO - Calculated SL: 1.36688, TP: 1.36621 for USDCAD
+2025-06-11 15:17:27 - MT5_EA - INFO - Attempting to place order: USDCAD, Type: SELL, Vol: 0.01
+2025-06-11 15:17:27 - MT5_EA - INFO - Order placed successfully. Ticket: 3925968133, Price: 1.36661, Volume: 0.01
+2025-06-11 15:17:27 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:17:57 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:17:57 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:17:57 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:17:57 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:17:57 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:17:57 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:17:57 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:17:57 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:17:57 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: SELL
+2025-06-11 15:17:57 - MT5_EA - WARNING - Configured SL for USDCAD is too tight for current spread(26.0) + stops_level(0). Original: 10 pips, Required: 26.0 pips. SL automatically adjusted.
+2025-06-11 15:17:57 - MT5_EA - INFO - Calculated SL: 1.3669, TP: 1.36625 for USDCAD
+2025-06-11 15:17:57 - MT5_EA - INFO - Attempting to place order: USDCAD, Type: SELL, Vol: 0.01
+2025-06-11 15:17:57 - MT5_EA - ERROR - Order send failed, retcode=10016 - Invalid stops
+2025-06-11 15:17:57 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:18:27 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:18:27 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:18:27 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:18:27 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:18:27 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:18:27 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:18:27 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:18:27 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:18:27 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:18:27 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:18:57 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:18:57 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:18:57 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:18:57 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:18:57 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:18:57 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:18:57 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:18:57 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:18:57 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:18:57 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:19:27 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:19:27 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:19:27 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: BUY
+2025-06-11 15:19:27 - MT5_EA - WARNING - Configured SL for EURUSD is too tight for current spread(13.0) + stops_level(0). Original: 10 pips, Required: 13.0 pips. SL automatically adjusted.
+2025-06-11 15:19:27 - MT5_EA - INFO - Calculated SL: 1.14823, TP: 1.14855 for EURUSD
+2025-06-11 15:19:27 - MT5_EA - INFO - Attempting to place order: EURUSD, Type: BUY, Vol: 0.01
+2025-06-11 15:19:27 - MT5_EA - INFO - Order placed successfully. Ticket: 3925981248, Price: 1.14836, Volume: 0.01
+2025-06-11 15:19:27 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:19:27 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:19:27 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:19:27 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:19:27 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:19:27 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:19:27 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:19:57 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:19:57 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:19:57 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: BUY
+2025-06-11 15:19:57 - MT5_EA - WARNING - Configured SL for EURUSD is too tight for current spread(13.0) + stops_level(0). Original: 10 pips, Required: 13.0 pips. SL automatically adjusted.
+2025-06-11 15:19:57 - MT5_EA - INFO - Calculated SL: 1.1482, TP: 1.14853 for EURUSD
+2025-06-11 15:19:57 - MT5_EA - INFO - Attempting to place order: EURUSD, Type: BUY, Vol: 0.01
+2025-06-11 15:19:57 - MT5_EA - INFO - Order placed successfully. Ticket: 3925984786, Price: 1.14833, Volume: 0.01
+2025-06-11 15:19:57 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:19:57 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:19:57 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:19:57 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:19:57 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:19:57 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:19:57 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:20:27 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:20:27 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:20:27 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:20:27 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:20:27 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:20:27 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:20:27 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:20:27 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:20:27 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:20:27 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:20:57 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:20:57 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:20:57 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:20:57 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:20:57 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:20:57 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:20:57 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:20:57 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:20:57 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:20:57 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:21:27 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:21:27 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:21:27 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:21:27 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:21:27 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:21:27 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:21:27 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:21:27 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:21:27 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:21:27 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:21:57 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:21:57 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:21:57 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:21:57 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:21:57 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:21:57 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:21:57 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:21:57 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:21:57 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:21:57 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:22:27 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:22:27 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:22:27 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:22:27 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:22:27 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:22:27 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:22:27 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:22:27 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:22:27 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:22:27 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-11 15:22:57 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-11 15:22:57 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-11 15:22:57 - MT5_EA - INFO - Strategy Signal for EURUSD on M1: HOLD
+2025-06-11 15:22:57 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-11 15:22:57 - MT5_EA - INFO - Strategy Signal for GBPUSD on M1: HOLD
+2025-06-11 15:22:57 - MT5_EA - INFO - --- Processing symbol: USDJPY ---
+2025-06-11 15:22:57 - MT5_EA - INFO - Strategy Signal for USDJPY on M1: HOLD
+2025-06-11 15:22:57 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-11 15:22:57 - MT5_EA - INFO - Strategy Signal for USDCAD on M1: HOLD
+2025-06-11 15:22:57 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
