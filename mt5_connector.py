@@ -34,9 +34,11 @@ class MT5Connector:
         self.connection_status = False
 
     def get_historical_data(self, symbol, timeframe_str, num_bars=100):
-        """Fetches historical price data."""
+        """Fetches historical price data and sorts it chronologically."""
         timeframe_map = {
-            'M1': mt5.TIMEFRAME_M1, 'H1': mt5.TIMEFRAME_H1, 'D1': mt5.TIMEFRAME_D1
+            'M1': mt5.TIMEFRAME_M1, 'M5': mt5.TIMEFRAME_M5, 'M15': mt5.TIMEFRAME_M15,
+            'M30': mt5.TIMEFRAME_M30, 'H1': mt5.TIMEFRAME_H1, 'H4': mt5.TIMEFRAME_H4,
+            'D1': mt5.TIMEFRAME_D1, 'W1': mt5.TIMEFRAME_W1, 'MN1': mt5.TIMEFRAME_MN1
         }
         timeframe = timeframe_map.get(timeframe_str.upper())
         if timeframe is None:
@@ -51,6 +53,13 @@ class MT5Connector:
 
             df = pd.DataFrame(rates)
             df['time'] = pd.to_datetime(df['time'], unit='s')
+
+            # --- THIS IS THE FIX ---
+            # MT5 returns data newest-to-oldest. We reverse it to be chronological (oldest-to-newest).
+            # This makes all subsequent logic (MA calculation, indexing) correct and intuitive.
+            df = df.iloc[::-1].reset_index(drop=True)
+            # --- END OF FIX ---
+
             return df
         except Exception as e:
             log.error(f"Exception in get_historical_data: {e}")
