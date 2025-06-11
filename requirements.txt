@@ -1,0 +1,3 @@
+metatrader5
+pandas
+numpy

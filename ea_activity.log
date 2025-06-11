@@ -1,0 +1,268 @@
+2025-06-10 09:08:51 - MT5_EA - INFO - Starting Python Expert Advisor
+2025-06-10 09:08:51 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-10 09:08:57 - MT5_EA - ERROR - MT5 initialize() failed, error code = (-6, 'Terminal: Authorization failed')
+2025-06-10 09:08:57 - MT5_EA - ERROR - Failed to connect to MT5. Exiting.
+2025-06-10 09:09:23 - MT5_EA - INFO - Starting Python Expert Advisor
+2025-06-10 09:09:37 - MT5_EA - INFO - Starting Python Expert Advisor
+2025-06-10 09:09:37 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-10 09:09:37 - MT5_EA - ERROR - MT5 initialize() failed, error code = (-6, 'Terminal: Authorization failed')
+2025-06-10 09:09:37 - MT5_EA - ERROR - Failed to connect to MT5. Exiting.
+2025-06-10 11:38:15 - MT5_EA - INFO - Starting Python Expert Advisor
+2025-06-10 11:38:15 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-10 11:38:16 - MT5_EA - ERROR - MT5 initialize() failed, error code = (-6, 'Terminal: Authorization failed')
+2025-06-10 11:38:16 - MT5_EA - ERROR - Failed to connect to MT5. Exiting.
+2025-06-10 11:42:04 - MT5_EA - INFO - Starting Python Expert Advisor
+2025-06-10 11:42:04 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-10 11:42:07 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-10 11:50:27 - MT5_EA - INFO - Starting Python Expert Advisor
+2025-06-10 11:50:27 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-10 11:50:27 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-10 11:50:27 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 11:50:27 - MT5_EA - ERROR - Invalid timeframe specified: H1  # M1, M5, M15, M30, H1, H4, D1, W1, MN1
+2025-06-10 11:50:27 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 11:50:27 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 11:51:27 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 11:51:27 - MT5_EA - ERROR - Invalid timeframe specified: H1  # M1, M5, M15, M30, H1, H4, D1, W1, MN1
+2025-06-10 11:51:27 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 11:51:27 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 11:52:27 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 11:52:27 - MT5_EA - ERROR - Invalid timeframe specified: H1  # M1, M5, M15, M30, H1, H4, D1, W1, MN1
+2025-06-10 11:52:27 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 11:52:27 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 11:53:27 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 11:53:27 - MT5_EA - ERROR - Invalid timeframe specified: H1  # M1, M5, M15, M30, H1, H4, D1, W1, MN1
+2025-06-10 11:53:27 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 11:53:27 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 11:54:18 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-10 11:54:18 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-10 11:54:18 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-10 11:54:26 - MT5_EA - INFO - Starting Python Expert Advisor
+2025-06-10 11:54:26 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-10 11:54:26 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-10 11:54:26 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 11:54:26 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 11:54:26 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 11:55:26 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 11:55:26 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 11:55:26 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 11:56:26 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 11:56:26 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 11:56:26 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 11:57:26 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 11:57:26 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 11:57:26 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 11:58:26 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 11:58:26 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 11:58:26 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 11:59:26 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 11:59:26 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 11:59:26 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 12:00:26 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 12:00:26 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 12:00:26 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 12:01:26 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 12:01:26 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 12:01:26 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 12:02:26 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 12:02:26 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 12:02:26 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 12:03:07 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-10 12:03:07 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-10 12:03:07 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-10 17:58:41 - MT5_EA - INFO - Starting Python Expert Advisor
+2025-06-10 17:58:41 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-10 17:58:41 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-10 17:58:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 17:58:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 17:58:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 17:59:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 17:59:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 17:59:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:00:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:00:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:00:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:01:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:01:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:01:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:02:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:02:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:02:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:03:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:03:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:03:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:04:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:04:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:04:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:05:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:05:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:05:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:06:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:06:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:06:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:07:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:07:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:07:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:08:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:08:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:08:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:09:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:09:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:09:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:10:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:10:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:10:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:11:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:11:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:11:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:12:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:12:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:12:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:13:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:13:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:13:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:14:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:14:41 - MT5_EA - INFO - Strategy Signal for EURUSD: SELL
+2025-06-10 18:14:41 - MT5_EA - INFO - Calculated SL: 1.14304, TP: 1.14004
+2025-06-10 18:14:41 - MT5_EA - INFO - Attempting to place order: EURUSD, Type: SELL, Vol: 0.01
+2025-06-10 18:14:41 - MT5_EA - ERROR - Order send failed, retcode=10027 - AutoTrading disabled by client
+2025-06-10 18:14:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:15:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:15:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:15:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:16:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:16:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:16:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:17:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:17:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:17:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:18:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:18:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:18:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:19:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:19:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:19:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:20:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:20:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:20:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:21:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:21:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:21:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:22:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:22:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:22:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:23:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:23:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:23:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:24:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:24:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:24:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:25:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:25:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:25:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:26:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:26:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:26:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:27:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:27:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:27:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:28:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:28:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:28:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:29:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:29:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:29:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:30:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:30:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:30:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:31:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:31:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:31:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:32:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:32:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:32:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:33:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:33:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:33:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:34:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:34:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:34:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:35:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:35:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:35:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:36:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:36:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:36:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:37:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:37:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:37:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:38:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:38:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:38:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:39:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:39:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:39:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:40:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:40:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:40:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:41:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:41:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:41:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:42:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:42:41 - MT5_EA - INFO - Strategy Signal for EURUSD: BUY
+2025-06-10 18:42:41 - MT5_EA - INFO - Calculated SL: 1.1414, TP: 1.1444
+2025-06-10 18:42:41 - MT5_EA - INFO - Attempting to place order: EURUSD, Type: BUY, Vol: 0.01
+2025-06-10 18:42:41 - MT5_EA - INFO - Order placed successfully. Ticket: 3919474578, Price: 1.1424, Volume: 0.01
+2025-06-10 18:42:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:43:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:43:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:43:41 - MT5_EA - INFO - Holding current BUY position. No action needed.
+2025-06-10 18:43:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:44:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:44:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:44:41 - MT5_EA - INFO - Holding current BUY position. No action needed.
+2025-06-10 18:44:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:45:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:45:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:45:41 - MT5_EA - INFO - Holding current BUY position. No action needed.
+2025-06-10 18:45:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:46:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:46:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:46:41 - MT5_EA - INFO - Holding current BUY position. No action needed.
+2025-06-10 18:46:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:47:41 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-10 18:47:41 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-10 18:47:41 - MT5_EA - INFO - Holding current BUY position. No action needed.
+2025-06-10 18:47:41 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-10 18:47:51 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-10 18:47:51 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-10 18:47:51 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-11 07:26:38 - MT5_EA - INFO - Starting Python Expert Advisor
+2025-06-11 07:26:38 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-11 07:26:38 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-11 07:26:38 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-11 07:26:38 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 07:26:38 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-11 07:27:38 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-11 07:27:38 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 07:27:38 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-11 07:28:38 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-11 07:28:38 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 07:28:38 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-11 07:29:38 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-11 07:29:38 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 07:29:38 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-11 07:30:38 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-11 07:30:38 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 07:30:38 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-11 07:31:38 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-11 07:31:38 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 07:31:38 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-11 07:32:38 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-11 07:32:38 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 07:32:38 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-11 07:33:38 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-11 07:33:38 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 07:33:38 - MT5_EA - INFO - Sleeping for 60 seconds...
+2025-06-11 07:34:38 - MT5_EA - INFO - -------------------- New Tick --------------------
+2025-06-11 07:34:38 - MT5_EA - INFO - Strategy Signal for EURUSD: HOLD
+2025-06-11 07:34:38 - MT5_EA - INFO - Sleeping for 60 seconds...
