@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa27ddf4-d4aa-4052-9a95-7ecc4b3ac13d" name="Changes" comment="20 currency pairs.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtest_results_EURUSD_2023-01-01_to_2025-06-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtest_results_EURUSD_M5_2025-01-01_to_2025-06-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtest_results_GBPUSD_2023-01-01_to_2025-06-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtest_results_GBPUSD_M5_2025-01-01_to_2025-06-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtest_results_USDCAD_2023-01-01_to_2025-06-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtest_results_USDCAD_M5_2025-01-01_to_2025-06-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtest_results_USDJPY_2023-01-01_to_2025-06-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtest_results_USDJPY_M5_2025-01-01_to_2025-06-10.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ea_activity.log" beforeDir="false" afterPath="$PROJECT_DIR$/ea_activity.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/trading_strategy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749719100137</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="20 currency pairs.">
+      <option name="closed" value="true" />
+      <created>1749719473409</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1749719473418</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

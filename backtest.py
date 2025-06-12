@@ -9,7 +9,7 @@ import MetaTrader5 as mt5
 from logger_setup import log
 from mt5_connector import MT5Connector
 from risk_manager import RiskManager
-from trading_strategy import MACrossoverStrategy
+from trading_strategy import RegimeMomentumStrategy  # <-- IMPORT THE NEW STRATEGY
 
 
 def run_backtest():
@@ -47,16 +47,13 @@ def run_backtest():
         log.error("Could not connect to MT5. Aborting backtest.")
         return
 
-    # Fetch all required symbol properties while connected
     symbol_info = mt5.symbol_info(symbol)
     if not symbol_info:
         log.error(f"Could not retrieve info for symbol {symbol}. It may not be in Market Watch or is invalid.")
         connector.disconnect()
         return
     point = symbol_info.point
-    stops_level = symbol_info.trade_stops_level
 
-    # Determine the correct MT5 timeframe constant from the config string
     timeframe_str = symbol_config['timeframe']
     timeframe_map = {
         'M1': mt5.TIMEFRAME_M1, 'M5': mt5.TIMEFRAME_M5, 'M15': mt5.TIMEFRAME_M15,
@@ -69,10 +66,10 @@ def run_backtest():
         connector.disconnect()
         return
 
-    # Fetch historical data
+    # Fetch historical data with a larger buffer for complex indicators
     from dateutil.relativedelta import relativedelta
-    ma_buffer_start_date = start_date - relativedelta(months=3)
-    rates = mt5.copy_rates_range(symbol, mt5_timeframe, ma_buffer_start_date, end_date)
+    buffer_start_date = start_date - relativedelta(months=6)  # 6-month buffer
+    rates = mt5.copy_rates_range(symbol, mt5_timeframe, buffer_start_date, end_date)
 
     connector.disconnect()
     log.info("Disconnected from MT5. Proceeding with offline simulation.")
@@ -81,83 +78,94 @@ def run_backtest():
         log.error("Failed to fetch historical data for the specified range. Try a shorter date range.")
         return
 
+    # Prepare DataFrame
     df = pd.DataFrame(rates)
     df['time'] = pd.to_datetime(df['time'], unit='s')
-    # Sort data chronologically and filter to the exact start date
     df = df.sort_values(by='time').reset_index(drop=True)
-    df = df[df['time'] >= start_date].reset_index(drop=True)
-    log.info(f"Successfully prepared {len(df)} data points for the simulation period.")
+
+    # Keep the full DataFrame with the buffer for indicator calculation,
+    # but find the index where the actual simulation starts.
+    sim_start_index = df[df['time'] >= start_date].index[0]
+    log.info(f"Successfully prepared {len(df)} total data points. Simulation will start at index {sim_start_index}.")
 
     # --- 3. Initialize Strategy and Risk Manager ---
-    strategy = MACrossoverStrategy(
-        fast_ma_period=int(symbol_config['fast_ma_period']),
-        slow_ma_period=int(symbol_config['slow_ma_period'])
-    )
-    risk_manager = RiskManager(
-        symbol=symbol,
-        stop_loss_pips=int(symbol_config['stop_loss_pips']),
-        risk_reward_ratio=float(symbol_config['risk_reward_ratio']),
-        point=point,
-        stops_level=stops_level
-    )
+    try:
+        strategy = RegimeMomentumStrategy(
+            fast_ema_period=int(symbol_config['fast_ema_period']),
+            slow_ema_period=int(symbol_config['slow_ema_period']),
+            adx_period=int(symbol_config['adx_period']),
+            adx_threshold=int(symbol_config['adx_threshold']),
+            stoch_k_period=int(symbol_config['stoch_k_period']),
+            stoch_d_period=int(symbol_config['stoch_d_period']),
+            stoch_slowing=int(symbol_config['stoch_slowing']),
+            stoch_oversold=int(symbol_config['stoch_oversold']),
+            stoch_overbought=int(symbol_config['stoch_overbought'])
+        )
+        risk_manager = RiskManager(
+            symbol=symbol,
+            stop_loss_pips=int(symbol_config['stop_loss_pips']),
+            risk_reward_ratio=float(symbol_config['risk_reward_ratio']),
+            point=point,
+            stops_level=symbol_info.trade_stops_level  # stops_level is part of symbol_info
+        )
+    except KeyError as e:
+        log.error(f"Configuration key missing for backtest: {e}. Aborting.")
+        return
 
     # --- 4. The Simulation Loop ---
     log.info("Starting simulation loop...")
-    start_index = int(strategy.slow_ma_period)
     current_trade = None
     completed_trades = []
 
-    for i in tqdm(range(start_index, len(df)), desc=f"Backtesting {symbol}"):
+    # Start loop from the simulation start index
+    for i in tqdm(range(sim_start_index, len(df)), desc=f"Backtesting {symbol}"):
         current_candle = df.iloc[i]
+        historical_slice = df.iloc[:i + 1]  # Slice includes current candle
 
-        # Check for SL/TP on an open trade
+        # --- Check for exits on an open trade ---
         if current_trade:
-            exit_price, pnl = None, 0
+            exit_price, pnl, comment = None, 0, ''
+
+            # 4a. Check for SL/TP Hit
             if current_trade['type'] == 'BUY':
                 if current_candle['low'] <= current_trade['sl']:
-                    exit_price = current_trade['sl']
+                    exit_price, comment = current_trade['sl'], 'SL Hit'
                 elif current_candle['high'] >= current_trade['tp']:
-                    exit_price = current_trade['tp']
+                    exit_price, comment = current_trade['tp'], 'TP Hit'
             elif current_trade['type'] == 'SELL':
                 if current_candle['high'] >= current_trade['sl']:
-                    exit_price = current_trade['sl']
+                    exit_price, comment = current_trade['sl'], 'SL Hit'
                 elif current_candle['low'] <= current_trade['tp']:
-                    exit_price = current_trade['tp']
+                    exit_price, comment = current_trade['tp'], 'TP Hit'
 
+            # 4b. If not stopped out, check for a protective strategy exit
+            if not exit_price:
+                should_exit = strategy.get_exit_signal(historical_slice, current_trade['type'])
+                if should_exit:
+                    exit_price, comment = current_candle['close'], 'Strategy Exit (EMA Cross)'
+
+            # 4c. Process the exit if one was triggered
             if exit_price:
                 pnl = (exit_price - current_trade['entry_price']) / point if current_trade['type'] == 'BUY' else (
                                                                                                                              current_trade[
                                                                                                                                  'entry_price'] - exit_price) / point
                 current_trade.update({'exit_price': exit_price, 'exit_time': current_candle['time'], 'pnl_pips': pnl,
-                                      'comment': 'SL/TP'})
+                                      'comment': comment})
                 completed_trades.append(current_trade)
                 current_trade = None
 
-        # Check for new signals
-        historical_slice = df.iloc[:i + 1]
-        signal = strategy.get_signal(historical_slice)
-
+        # --- Check for a new entry signal if no trade is open ---
         if not current_trade:
-            if signal in ["BUY", "SELL"]:
+            entry_signal = strategy.get_entry_signal(historical_slice)
+            if entry_signal in ["BUY", "SELL"]:
                 entry_price = current_candle['close']
-                # Simulate spread-aware SL/TP calculation using candle close for both ask/bid
-                sl_price, tp_price = risk_manager.calculate_sl_tp(order_type=signal, current_ask=entry_price,
+                # Simulate SL/TP calculation using candle close for both ask/bid (zero spread simulation)
+                sl_price, tp_price = risk_manager.calculate_sl_tp(order_type=entry_signal, current_ask=entry_price,
                                                                   current_bid=entry_price)
                 if sl_price and tp_price:
-                    current_trade = {'id': len(completed_trades) + 1, 'symbol': symbol, 'type': signal,
+                    current_trade = {'id': len(completed_trades) + 1, 'symbol': symbol, 'type': entry_signal,
                                      'entry_time': current_candle['time'], 'entry_price': entry_price, 'sl': sl_price,
                                      'tp': tp_price}
-        elif current_trade:
-            if (signal == "BUY" and current_trade['type'] == "SELL") or (
-                    signal == "SELL" and current_trade['type'] == "BUY"):
-                exit_price = current_candle['close']
-                pnl = (exit_price - current_trade['entry_price']) / point if current_trade['type'] == 'BUY' else (
-                                                                                                                             current_trade[
-                                                                                                                                 'entry_price'] - exit_price) / point
-                current_trade.update({'exit_price': exit_price, 'exit_time': current_candle['time'], 'pnl_pips': pnl,
-                                      'comment': 'Opposite Signal'})
-                completed_trades.append(current_trade)
-                current_trade = None
 
     # --- 5. Reporting ---
     log.info("Simulation complete. Generating report...")
@@ -166,29 +174,23 @@ def run_backtest():
         return
 
     results_df = pd.DataFrame(completed_trades)
-
     total_trades = len(results_df)
     winning_trades = results_df[results_df['pnl_pips'] > 0]
     losing_trades = results_df[results_df['pnl_pips'] <= 0]
-
     win_rate = (len(winning_trades) / total_trades) * 100 if total_trades > 0 else 0
     total_pnl_pips = results_df['pnl_pips'].sum()
-
     avg_win_pips = winning_trades['pnl_pips'].mean() if len(winning_trades) > 0 else 0
     avg_loss_pips = losing_trades['pnl_pips'].mean() if len(losing_trades) > 0 else 0
-
     gross_profit = winning_trades['pnl_pips'].sum()
     gross_loss = abs(losing_trades['pnl_pips'].sum())
     profit_factor = gross_profit / gross_loss if gross_loss > 0 else float('inf')
 
-    # Display Report
     print("\n" + "=" * 50)
     print(f"{'BACKTEST REPORT':^50}")
     print("=" * 50)
     print(f" Symbol            : {symbol} ({timeframe_str})")
     print(f" Period            : {start_date.date()} to {end_date.date()}")
-    print(
-        f" Strategy          : MA Crossover ({int(symbol_config['fast_ma_period'])}/{int(symbol_config['slow_ma_period'])})")
+    print(f" Strategy          : Regime Momentum Strategy")  # <-- UPDATED STRATEGY NAME
     print("-" * 50)
     print(f"{'PERFORMANCE METRICS':^50}")
     print("-" * 50)
