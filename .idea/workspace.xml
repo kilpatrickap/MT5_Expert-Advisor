@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa27ddf4-d4aa-4052-9a95-7ecc4b3ac13d" name="Changes" comment="Resetting to H1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aa27ddf4-d4aa-4052-9a95-7ecc4b3ac13d" name="Changes" comment="20 currency pairs.">
       <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea_activity.log" beforeDir="false" afterPath="$PROJECT_DIR$/ea_activity.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +350,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749718367486</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="20 currency pairs.">
+      <option name="closed" value="true" />
+      <created>1749719100137</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1749719100137</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -384,6 +392,7 @@
     <MESSAGE value="M5" />
     <MESSAGE value="M5-backtesting" />
     <MESSAGE value="Resetting to H1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resetting to H1" />
+    <MESSAGE value="20 currency pairs." />
+    <option name="LAST_COMMIT_MESSAGE" value="20 currency pairs." />
   </component>
 </project>
