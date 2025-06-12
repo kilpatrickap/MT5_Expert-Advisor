@@ -2165,3 +2165,268 @@ AttributeError: 'DataFrame' object has no attribute 'ta'
 2025-06-12 10:16:40 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
 2025-06-12 10:16:40 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
 2025-06-12 10:16:40 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:17:10 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:17:10 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:17:10 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:17:10 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:17:10 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:17:10 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:17:10 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:17:10 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:17:40 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:17:40 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:17:40 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:17:40 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:17:40 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:17:40 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:17:40 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:17:40 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:18:10 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:18:10 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:18:10 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:18:10 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:18:10 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:18:10 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:18:10 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:18:10 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:18:40 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:18:40 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:18:40 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:18:40 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:18:40 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:18:40 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:18:40 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:18:40 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:19:10 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:19:10 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:19:10 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:19:10 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:19:10 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:19:10 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:19:10 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:19:10 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:19:40 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:19:40 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:19:40 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:19:40 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:19:40 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:19:40 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:19:40 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:19:40 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:20:10 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:20:10 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:20:10 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:20:10 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:20:10 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:20:10 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:20:10 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:20:10 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:20:40 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:20:40 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:20:40 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:20:40 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:20:40 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:20:40 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:20:40 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:20:40 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:20:50 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-12 10:20:50 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-12 10:20:50 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-12 10:20:58 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-12 10:20:58 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-12 10:20:58 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-12 10:20:58 - MT5_EA - INFO - Initializing strategies and risk managers for each symbol...
+2025-06-12 10:20:58 - MT5_EA - INFO - --- Loading config for EURUSD ---
+2025-06-12 10:20:58 - MT5_EA - INFO - --- Loading config for GBPUSD ---
+2025-06-12 10:20:58 - MT5_EA - INFO - --- Loading config for USDCAD ---
+2025-06-12 10:20:58 - MT5_EA - INFO - EA configured to trade symbols: ['EURUSD', 'GBPUSD', 'USDCAD']
+2025-06-12 10:20:58 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:20:58 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:20:58 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:20:58 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:20:58 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:20:58 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:20:58 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:20:58 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:21:28 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:21:28 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:21:28 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:21:28 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:21:28 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:21:28 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:21:28 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:21:28 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:21:58 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:21:58 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:21:59 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:21:59 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:21:59 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:21:59 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:21:59 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:21:59 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:22:29 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:22:29 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:22:29 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:22:29 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:22:29 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:22:29 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:22:29 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:22:29 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:22:59 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:22:59 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:22:59 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:22:59 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:22:59 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:22:59 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:22:59 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:22:59 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:23:29 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:23:29 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:23:29 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:23:29 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:23:29 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:23:29 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:23:29 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:23:29 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:23:59 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:23:59 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:23:59 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:23:59 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:23:59 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:23:59 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:23:59 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:23:59 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:24:29 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:24:29 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:24:29 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:24:29 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:24:29 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:24:29 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:24:29 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:24:29 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:24:59 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:24:59 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:24:59 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:24:59 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:24:59 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:24:59 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:24:59 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:24:59 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:25:29 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:25:29 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:25:29 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:25:29 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:25:29 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:25:29 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:25:29 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:25:29 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:25:59 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:25:59 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:25:59 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:25:59 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:25:59 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:25:59 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:25:59 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:25:59 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:26:29 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:26:29 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:26:29 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:26:29 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:26:29 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:26:29 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:26:29 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:26:29 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:26:59 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:26:59 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:26:59 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:26:59 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:26:59 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:26:59 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:26:59 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:26:59 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:27:29 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:27:29 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:27:29 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:27:29 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:27:29 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:27:29 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:27:29 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:27:29 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:27:59 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:27:59 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:27:59 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:27:59 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:27:59 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:27:59 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:27:59 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:27:59 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:28:29 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:28:29 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:28:29 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:28:29 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:28:29 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:28:29 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:28:29 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:28:29 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:28:44 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-12 10:28:44 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-12 10:28:44 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-12 10:29:51 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-12 10:29:51 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-12 10:29:51 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-12 10:29:51 - MT5_EA - INFO - Initializing strategies and risk managers for each symbol...
+2025-06-12 10:29:51 - MT5_EA - INFO - --- Loading config for EURUSD ---
+2025-06-12 10:29:51 - MT5_EA - INFO - --- Loading config for GBPUSD ---
+2025-06-12 10:29:51 - MT5_EA - INFO - --- Loading config for USDCAD ---
+2025-06-12 10:29:51 - MT5_EA - INFO - EA configured to trade symbols: ['EURUSD', 'GBPUSD', 'USDCAD']
+2025-06-12 10:29:51 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:29:51 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:29:51 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:29:51 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:29:51 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:29:51 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:29:51 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:29:51 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:30:21 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:30:21 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:30:21 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:30:21 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:30:21 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:30:21 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:30:21 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:30:21 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:30:51 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:30:51 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:30:51 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:30:51 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:30:51 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:30:51 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:30:51 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:30:51 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:31:21 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:31:21 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:31:21 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:31:21 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:31:21 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:31:21 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:31:21 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:31:21 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:31:51 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:31:51 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:31:51 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:31:51 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:31:51 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:31:51 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:31:51 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:31:51 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:32:21 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:32:21 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:32:21 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:32:21 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:32:21 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:32:21 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:32:21 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:32:21 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:32:22 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-12 10:32:22 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-12 10:32:22 - MT5_EA - INFO - Python Expert Advisor has been shut down.
