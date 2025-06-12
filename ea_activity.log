@@ -1811,3 +1811,357 @@
 2025-06-12 09:35:58 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
 2025-06-12 09:35:58 - MT5_EA - INFO - Shutting down MT5 connection.
 2025-06-12 09:35:58 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-12 09:56:14 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-12 09:56:14 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-12 09:56:14 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-12 09:56:14 - MT5_EA - INFO - Initializing strategies and risk managers for each symbol...
+2025-06-12 09:56:14 - MT5_EA - INFO - --- Loading config for EURUSD ---
+2025-06-12 09:56:14 - MT5_EA - INFO - --- Loading config for GBPUSD ---
+2025-06-12 09:56:14 - MT5_EA - INFO - --- Loading config for USDCAD ---
+2025-06-12 09:56:14 - MT5_EA - INFO - EA configured to trade symbols: ['EURUSD', 'GBPUSD', 'USDCAD']
+2025-06-12 09:56:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 09:56:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 09:56:14 - MT5_EA - ERROR - An unexpected error occurred while processing EURUSD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 09:56:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 09:56:14 - MT5_EA - ERROR - An unexpected error occurred while processing GBPUSD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 09:56:14 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 09:56:14 - MT5_EA - ERROR - An unexpected error occurred while processing USDCAD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 09:56:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 09:56:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 09:56:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 09:56:44 - MT5_EA - ERROR - An unexpected error occurred while processing EURUSD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 09:56:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 09:56:44 - MT5_EA - ERROR - An unexpected error occurred while processing GBPUSD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 09:56:44 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 09:56:44 - MT5_EA - ERROR - An unexpected error occurred while processing USDCAD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 09:56:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 09:57:14 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 09:57:14 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 09:57:14 - MT5_EA - ERROR - An unexpected error occurred while processing EURUSD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 09:57:14 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 09:57:14 - MT5_EA - ERROR - An unexpected error occurred while processing GBPUSD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 09:57:14 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 09:57:14 - MT5_EA - ERROR - An unexpected error occurred while processing USDCAD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 09:57:14 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 09:57:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 09:57:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 09:57:44 - MT5_EA - ERROR - An unexpected error occurred while processing EURUSD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 09:57:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 09:57:44 - MT5_EA - ERROR - An unexpected error occurred while processing GBPUSD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 09:57:44 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 09:57:44 - MT5_EA - ERROR - An unexpected error occurred while processing USDCAD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 09:57:44 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 09:57:54 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-12 09:57:54 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-12 09:57:54 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-12 10:02:25 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-12 10:02:25 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-12 10:02:25 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-12 10:02:25 - MT5_EA - INFO - Initializing strategies and risk managers for each symbol...
+2025-06-12 10:02:25 - MT5_EA - INFO - --- Loading config for EURUSD ---
+2025-06-12 10:02:25 - MT5_EA - INFO - --- Loading config for GBPUSD ---
+2025-06-12 10:02:25 - MT5_EA - INFO - --- Loading config for USDCAD ---
+2025-06-12 10:02:25 - MT5_EA - INFO - EA configured to trade symbols: ['EURUSD', 'GBPUSD', 'USDCAD']
+2025-06-12 10:02:25 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:02:25 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:02:25 - MT5_EA - ERROR - An unexpected error occurred while processing EURUSD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 10:02:25 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:02:25 - MT5_EA - ERROR - An unexpected error occurred while processing GBPUSD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 10:02:25 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:02:25 - MT5_EA - ERROR - An unexpected error occurred while processing USDCAD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 10:02:25 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:02:55 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:02:55 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:02:55 - MT5_EA - ERROR - An unexpected error occurred while processing EURUSD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 10:02:55 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:02:55 - MT5_EA - ERROR - An unexpected error occurred while processing GBPUSD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 10:02:55 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:02:55 - MT5_EA - ERROR - An unexpected error occurred while processing USDCAD: 'DataFrame' object has no attribute 'ta'
+Traceback (most recent call last):
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\main.py", line 129, in run
+    entry_signal = strategy.get_entry_signal(historical_data)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 62, in get_entry_signal
+    df = self._calculate_indicators(df)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\trading_strategy.py", line 43, in _calculate_indicators
+    df.ta.ema(length=self.fast_ema_period, append=True)
+    ^^^^^
+  File "C:\Users\Consar-Kilpatrick\PycharmProjects\mt5_expert_advisor\.venv\Lib\site-packages\pandas\core\generic.py", line 6318, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'ta'
+2025-06-12 10:02:55 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:02:58 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-12 10:02:58 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-12 10:02:58 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-12 10:15:40 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-12 10:15:40 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-12 10:15:40 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-12 10:15:40 - MT5_EA - INFO - Initializing strategies and risk managers for each symbol...
+2025-06-12 10:15:40 - MT5_EA - INFO - --- Loading config for EURUSD ---
+2025-06-12 10:15:40 - MT5_EA - INFO - --- Loading config for GBPUSD ---
+2025-06-12 10:15:40 - MT5_EA - INFO - --- Loading config for USDCAD ---
+2025-06-12 10:15:40 - MT5_EA - INFO - EA configured to trade symbols: ['EURUSD', 'GBPUSD', 'USDCAD']
+2025-06-12 10:15:40 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:15:40 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:15:40 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:15:40 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:15:40 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:15:40 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:15:40 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:15:40 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:16:10 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:16:10 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:16:10 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:16:10 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:16:10 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:16:10 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:16:10 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:16:10 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...
+2025-06-12 10:16:40 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-12 10:16:40 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-12 10:16:40 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on H1: HOLD
+2025-06-12 10:16:40 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-12 10:16:40 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on H1: HOLD
+2025-06-12 10:16:40 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-12 10:16:40 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on H1: HOLD
+2025-06-12 10:16:40 - MT5_EA - INFO - Cycle complete. Sleeping for 30 seconds...

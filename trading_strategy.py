@@ -1,6 +1,6 @@
 # trading_strategy.py
 import pandas as pd
-
+import pandas_ta as ta
 
 class RegimeMomentumStrategy:
     """
