@@ -1,0 +1,1330 @@
+2025-06-13 11:13:19 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-13 11:13:19 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-13 11:13:20 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-13 11:13:20 - MT5_EA - INFO - Initializing strategies and risk managers for each symbol...
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Loading config for EURUSD ---
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Loading config for GBPUSD ---
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Loading config for EURJPY ---
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Loading config for CADJPY ---
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Loading config for AUDUSD ---
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Loading config for USDCAD ---
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Loading config for EURGBP ---
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Loading config for EURCHF ---
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Loading config for GBPAUD ---
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Loading config for AUDNZD ---
+2025-06-13 11:13:20 - MT5_EA - INFO - EA configured to trade symbols: ['EURUSD', 'GBPUSD', 'EURJPY', 'CADJPY', 'AUDUSD', 'USDCAD', 'EURGBP', 'EURCHF', 'GBPAUD', 'AUDNZD']
+2025-06-13 11:13:20 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 11:13:20 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 11:13:20 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 11:13:20 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 11:13:20 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 11:13:20 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 11:13:20 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 11:13:20 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 11:13:20 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 11:13:20 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 11:13:20 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 11:13:20 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 11:13:20 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 11:18:20 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 11:18:20 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 11:18:20 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 11:18:20 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 11:18:20 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 11:18:20 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 11:18:20 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 11:18:20 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 11:18:20 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 11:18:20 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 11:18:20 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 11:18:20 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 11:18:20 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 11:18:20 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 11:18:20 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 11:18:20 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 11:18:20 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 11:18:20 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 11:18:20 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 11:18:20 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 11:18:20 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 11:18:20 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 11:23:20 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 11:23:20 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 11:23:20 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 11:23:20 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 11:23:20 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 11:23:20 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 11:23:20 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 11:23:20 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 11:23:20 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 11:23:20 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 11:23:20 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 11:23:20 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 11:23:20 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 11:23:20 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 11:23:20 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 11:23:20 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 11:23:20 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 11:23:20 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 11:23:20 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 11:23:20 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 11:23:20 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 11:23:20 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 11:28:20 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 11:28:20 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 11:28:20 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 11:28:20 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 11:28:20 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 11:28:20 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 11:28:20 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 11:28:20 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 11:28:20 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 11:28:20 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 11:28:20 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 11:28:20 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 11:28:20 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 11:28:20 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 11:28:20 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 11:28:20 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 11:28:20 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 11:28:20 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 11:28:20 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 11:28:20 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 11:28:20 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 11:28:20 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 11:33:20 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 11:33:20 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 11:33:20 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 11:33:20 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 11:33:20 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 11:33:20 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 11:33:20 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 11:33:20 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 11:33:20 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 11:33:20 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 11:33:20 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 11:33:20 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 11:33:20 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 11:33:20 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 11:33:20 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 11:33:20 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 11:33:20 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 11:33:20 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 11:33:20 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 11:33:20 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 11:33:20 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 11:33:20 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 11:38:20 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 11:38:20 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 11:38:20 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 11:38:20 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 11:38:20 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 11:38:20 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 11:38:20 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 11:38:20 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 11:38:20 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 11:38:20 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 11:38:20 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 11:38:20 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 11:38:20 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 11:38:20 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 11:38:20 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 11:38:20 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 11:38:20 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 11:38:20 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 11:38:20 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 11:38:20 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 11:38:20 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 11:38:20 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 11:43:20 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 11:43:20 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 11:43:20 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 11:43:20 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 11:43:20 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 11:43:20 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 11:43:20 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 11:43:20 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 11:43:20 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 11:43:20 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 11:43:20 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 11:43:20 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 11:43:20 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 11:43:20 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 11:43:20 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 11:43:20 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 11:43:20 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 11:43:20 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 11:43:20 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 11:43:20 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 11:43:20 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 11:43:20 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 11:48:20 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 11:48:20 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 11:48:20 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 11:48:20 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 11:48:20 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 11:48:20 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 11:48:20 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 11:48:20 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 11:48:20 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 11:48:20 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 11:48:20 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 11:48:20 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 11:48:20 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 11:48:20 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 11:48:20 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 11:48:20 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 11:48:20 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 11:48:20 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 11:48:20 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 11:48:20 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 11:48:20 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 11:48:20 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 11:53:20 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 11:53:20 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 11:53:20 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 11:53:20 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 11:53:21 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 11:53:21 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 11:53:21 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 11:53:21 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 11:53:21 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 11:53:21 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 11:53:21 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 11:53:21 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 11:53:21 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 11:53:21 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 11:53:21 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 11:53:21 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 11:53:21 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 11:53:21 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 11:53:21 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 11:53:21 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 11:53:21 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 11:53:21 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 11:58:21 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 11:58:21 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 11:58:21 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 11:58:21 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 11:58:21 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 11:58:21 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 11:58:21 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 11:58:21 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 11:58:21 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 11:58:21 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 11:58:21 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 11:58:21 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 11:58:21 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 11:58:21 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 11:58:21 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 11:58:21 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 11:58:21 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 11:58:21 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 11:58:21 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 11:58:21 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 11:58:21 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 11:58:21 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 12:03:21 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 12:03:21 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 12:03:21 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 12:03:21 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 12:03:21 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 12:03:21 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 12:03:21 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 12:03:21 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 12:03:21 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 12:03:21 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 12:03:21 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 12:03:21 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 12:03:21 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 12:03:21 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 12:03:21 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 12:03:21 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 12:03:21 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 12:03:21 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 12:03:21 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 12:03:21 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 12:03:21 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 12:03:21 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 12:08:21 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 12:08:21 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 12:08:21 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 12:08:21 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 12:08:21 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 12:08:21 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 12:08:21 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 12:08:21 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 12:08:21 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 12:08:21 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 12:08:21 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 12:08:21 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 12:08:21 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 12:08:21 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 12:08:21 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 12:08:21 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 12:08:21 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 12:08:21 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 12:08:21 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 12:08:21 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 12:08:21 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 12:08:21 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 12:12:26 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-13 12:12:26 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-13 12:12:26 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-13 12:13:42 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-13 12:13:42 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-13 12:13:42 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-13 12:13:42 - MT5_EA - INFO - Initializing strategies and risk managers for each symbol...
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Loading config for EURUSD ---
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Loading config for GBPUSD ---
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Loading config for EURJPY ---
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Loading config for CADJPY ---
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Loading config for AUDUSD ---
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Loading config for USDCAD ---
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Loading config for EURGBP ---
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Loading config for EURCHF ---
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Loading config for GBPAUD ---
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Loading config for AUDNZD ---
+2025-06-13 12:13:42 - MT5_EA - INFO - EA configured to trade symbols: ['EURUSD', 'GBPUSD', 'EURJPY', 'CADJPY', 'AUDUSD', 'USDCAD', 'EURGBP', 'EURCHF', 'GBPAUD', 'AUDNZD']
+2025-06-13 12:13:42 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 12:13:42 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 12:13:42 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 12:13:42 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 12:13:42 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 12:13:42 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 12:13:42 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 12:13:42 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 12:13:42 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 12:13:42 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 12:13:42 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 12:13:42 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 12:13:42 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 12:18:42 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 12:18:42 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 12:18:42 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 12:18:42 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 12:18:42 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 12:18:42 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 12:18:42 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 12:18:42 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 12:18:42 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 12:18:42 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 12:18:42 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 12:18:42 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 12:18:42 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 12:18:42 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 12:18:42 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 12:18:42 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 12:18:42 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 12:18:42 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 12:18:42 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 12:18:42 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 12:18:42 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 12:18:42 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 12:23:42 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 12:23:42 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 12:23:42 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 12:23:42 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 12:23:42 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 12:23:42 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 12:23:42 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 12:23:42 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 12:23:42 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 12:23:42 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 12:23:42 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 12:23:42 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 12:23:42 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 12:23:42 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 12:23:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 12:23:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 12:23:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 12:23:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 12:23:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 12:23:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 12:23:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 12:23:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 12:28:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 12:28:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 12:28:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 12:28:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 12:28:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 12:28:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 12:28:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 12:28:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 12:28:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 12:28:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 12:28:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 12:28:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 12:28:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 12:28:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 12:28:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 12:28:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 12:28:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 12:28:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 12:28:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 12:28:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 12:28:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 12:28:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 12:33:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 12:33:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 12:33:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 12:33:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 12:33:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 12:33:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 12:33:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 12:33:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 12:33:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 12:33:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 12:33:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 12:33:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 12:33:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 12:33:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 12:33:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 12:33:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 12:33:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 12:33:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 12:33:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 12:33:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 12:33:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 12:33:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 12:38:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 12:38:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 12:38:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 12:38:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 12:38:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 12:38:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 12:38:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 12:38:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 12:38:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 12:38:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 12:38:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 12:38:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 12:38:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 12:38:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 12:38:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 12:38:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 12:38:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 12:38:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 12:38:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 12:38:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 12:38:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 12:38:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 12:43:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 12:43:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 12:43:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 12:43:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 12:43:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 12:43:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 12:43:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 12:43:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 12:43:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 12:43:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 12:43:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 12:43:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 12:43:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 12:43:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 12:43:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 12:43:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 12:43:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 12:43:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 12:43:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 12:43:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 12:43:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 12:43:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 12:48:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 12:48:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 12:48:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 12:48:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 12:48:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 12:48:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 12:48:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 12:48:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 12:48:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 12:48:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 12:48:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 12:48:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 12:48:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 12:48:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 12:48:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 12:48:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 12:48:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 12:48:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 12:48:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 12:48:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 12:48:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 12:48:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 12:53:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 12:53:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 12:53:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 12:53:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 12:53:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 12:53:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 12:53:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 12:53:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 12:53:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 12:53:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 12:53:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 12:53:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 12:53:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 12:53:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 12:53:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 12:53:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 12:53:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 12:53:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 12:53:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 12:53:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 12:53:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 12:53:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 12:58:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 12:58:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 12:58:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 12:58:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 12:58:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 12:58:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 12:58:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 12:58:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 12:58:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 12:58:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 12:58:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 12:58:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 12:58:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 12:58:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 12:58:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 12:58:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 12:58:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 12:58:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 12:58:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 12:58:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 12:58:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 12:58:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 13:03:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 13:03:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 13:03:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 13:03:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 13:03:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 13:03:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 13:03:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 13:03:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 13:03:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 13:03:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 13:03:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 13:03:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 13:03:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 13:03:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 13:03:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 13:03:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 13:03:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 13:03:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 13:03:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 13:03:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 13:03:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 13:03:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 13:08:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 13:08:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 13:08:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 13:08:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 13:08:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 13:08:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 13:08:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 13:08:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 13:08:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 13:08:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 13:08:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 13:08:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 13:08:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 13:08:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 13:08:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 13:08:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 13:08:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 13:08:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 13:08:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 13:08:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 13:08:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 13:08:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 13:13:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 13:13:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 13:13:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 13:13:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 13:13:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 13:13:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 13:13:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 13:13:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 13:13:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 13:13:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 13:13:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 13:13:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 13:13:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 13:13:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 13:13:44 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 13:13:44 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 13:13:44 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 13:13:44 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 13:13:44 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 13:13:44 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 13:13:44 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 13:13:44 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 13:18:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 13:18:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 13:18:44 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 13:18:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 13:18:44 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 13:18:44 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 13:18:44 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 13:18:44 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 13:18:44 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 13:18:44 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 13:18:44 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 13:18:44 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 13:18:44 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 13:18:44 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 13:18:44 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 13:18:44 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 13:18:44 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 13:18:44 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 13:18:44 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 13:18:44 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 13:18:44 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 13:18:44 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 13:23:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 13:23:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 13:23:44 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 13:23:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 13:23:44 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 13:23:44 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 13:23:44 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 13:23:44 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 13:23:44 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 13:23:44 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 13:23:44 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 13:23:44 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 13:23:44 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 13:23:44 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 13:23:44 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 13:23:44 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 13:23:44 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 13:23:44 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 13:23:44 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 13:23:44 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 13:23:44 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 13:23:44 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 13:28:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 13:28:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 13:28:44 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 13:28:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 13:28:44 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 13:28:44 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 13:28:44 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 13:28:44 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 13:28:44 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 13:28:44 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 13:28:44 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 13:28:44 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 13:28:44 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 13:28:44 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 13:28:44 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 13:28:44 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 13:28:44 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 13:28:44 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 13:28:44 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 13:28:44 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 13:28:44 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 13:28:44 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 13:33:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 13:33:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 13:33:44 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 13:33:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 13:33:44 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 13:33:44 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 13:33:44 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 13:33:44 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 13:33:44 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 13:33:44 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 13:33:44 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 13:33:44 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 13:33:44 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 13:33:44 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 13:33:44 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 13:33:44 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 13:33:44 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 13:33:44 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 13:33:44 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 13:33:44 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 13:33:44 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 13:33:44 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 13:38:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 13:38:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 13:38:44 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 13:38:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 13:38:44 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 13:38:44 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 13:38:44 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 13:38:44 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 13:38:44 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 13:38:44 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 13:38:44 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 13:38:44 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 13:38:44 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 13:38:44 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 13:38:44 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 13:38:44 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 13:38:44 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 13:38:44 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 13:38:44 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 13:38:44 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 13:38:44 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 13:38:44 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 13:43:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 13:43:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 13:43:44 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 13:43:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 13:43:44 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 13:43:44 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 13:43:44 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 13:43:44 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 13:43:44 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 13:43:44 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 13:43:44 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 13:43:44 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 13:43:44 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 13:43:44 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 13:43:44 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 13:43:44 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 13:43:44 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 13:43:44 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 13:43:44 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 13:43:44 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 13:43:44 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 13:43:44 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 13:48:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 13:48:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 13:48:44 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 13:48:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 13:48:44 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 13:48:44 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 13:48:44 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 13:48:44 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 13:48:44 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 13:48:44 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 13:48:44 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 13:48:44 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 13:48:44 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 13:48:44 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 13:48:44 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 13:48:44 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 13:48:44 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 13:48:44 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 13:48:44 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 13:48:44 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 13:48:44 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 13:48:44 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 13:53:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 13:53:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 13:53:44 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 13:53:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 13:53:44 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 13:53:44 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 13:53:44 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 13:53:44 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 13:53:44 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 13:53:44 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 13:53:44 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 13:53:44 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 13:53:44 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 13:53:44 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 13:53:44 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 13:53:44 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 13:53:44 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 13:53:44 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 13:53:44 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 13:53:44 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 13:53:44 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 13:53:44 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 13:58:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 13:58:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 13:58:44 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 13:58:44 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 13:58:44 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 13:58:44 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 13:58:44 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 13:58:44 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 13:58:44 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 13:58:44 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 13:58:44 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 13:58:44 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 13:58:44 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 13:58:44 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 13:58:44 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 13:58:44 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 13:58:44 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 13:58:44 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 13:58:44 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 13:58:44 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 13:58:45 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 13:58:45 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 14:03:44 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 14:03:44 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 14:03:45 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 14:03:45 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 14:03:45 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 14:03:45 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 14:03:45 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 14:03:45 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 14:03:45 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 14:03:45 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 14:03:45 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 14:03:45 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 14:03:45 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 14:03:45 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 14:03:45 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 14:03:45 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 14:03:45 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 14:03:45 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 14:03:45 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 14:03:45 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 14:03:45 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 14:03:45 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 14:08:45 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 14:08:45 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 14:08:45 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 14:08:45 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 14:08:45 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 14:08:45 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 14:08:45 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 14:08:45 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 14:08:45 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 14:08:45 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 14:08:45 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 14:08:45 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 14:08:45 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 14:08:45 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 14:08:45 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 14:08:45 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 14:08:45 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 14:08:45 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 14:08:45 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 14:08:45 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 14:08:45 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 14:08:45 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 14:13:45 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 14:13:45 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 14:13:45 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 14:13:45 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 14:13:45 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 14:13:45 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 14:13:45 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 14:13:45 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 14:13:45 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 14:13:45 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 14:13:45 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 14:13:45 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 14:13:45 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 14:13:45 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 14:13:45 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 14:13:45 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 14:13:45 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 14:13:45 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 14:13:45 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 14:13:45 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 14:13:45 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 14:13:45 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 14:18:45 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 14:18:45 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 14:18:45 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 14:18:45 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 14:18:45 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 14:18:45 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 14:18:45 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 14:18:45 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 14:18:45 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 14:18:45 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 14:18:45 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 14:18:45 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 14:18:45 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 14:18:45 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 14:18:45 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 14:18:45 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 14:18:45 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 14:18:45 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 14:18:45 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 14:18:45 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 14:18:45 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 14:18:45 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 14:23:45 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 14:23:45 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 14:23:45 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 14:23:45 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 14:23:45 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 14:23:45 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 14:23:45 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 14:23:45 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 14:23:45 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 14:23:45 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 14:23:45 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 14:23:45 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 14:23:45 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 14:23:45 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 14:23:45 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 14:23:45 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 14:23:45 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 14:23:45 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 14:23:45 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 14:23:45 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 14:23:45 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 14:23:45 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 14:28:45 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 14:28:45 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 14:28:45 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 14:28:45 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 14:28:45 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 14:28:45 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 14:28:45 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 14:28:45 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 14:28:45 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 14:28:45 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 14:28:45 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 14:28:45 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 14:28:45 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 14:28:45 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 14:28:45 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 14:28:45 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 14:28:45 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 14:28:45 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 14:28:45 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 14:28:45 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 14:28:45 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 14:28:45 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 14:33:45 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 14:33:45 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 14:33:45 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 14:33:45 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 14:33:45 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 14:33:45 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 14:33:45 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 14:33:45 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 14:33:45 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 14:33:45 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 14:33:45 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 14:33:45 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 14:33:45 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 14:33:45 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 14:33:45 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 14:33:45 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 14:33:45 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 14:33:45 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 14:33:45 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 14:33:45 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 14:33:45 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 14:33:45 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 14:38:45 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 14:38:45 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 14:38:45 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 14:38:45 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 14:38:45 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 14:38:45 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 14:38:45 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 14:38:45 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 14:38:45 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 14:38:45 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 14:38:45 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 14:38:45 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 14:38:45 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 14:38:45 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 14:38:45 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 14:38:45 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 14:38:45 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 14:38:45 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 14:38:45 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 14:38:45 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 14:38:45 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 14:38:45 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 14:40:38 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-13 14:40:38 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-13 14:40:38 - MT5_EA - INFO - Python Expert Advisor has been shut down.
+2025-06-13 14:41:25 - MT5_EA - INFO - Starting Python Multi-Symbol Expert Advisor
+2025-06-13 14:41:25 - MT5_EA - INFO - Initializing MT5 connection...
+2025-06-13 14:41:41 - MT5_EA - INFO - MT5 connection successful to account 93083332.
+2025-06-13 14:41:41 - MT5_EA - INFO - Initializing strategies and risk managers for each symbol...
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Loading config for EURUSD ---
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Loading config for GBPUSD ---
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Loading config for EURJPY ---
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Loading config for CADJPY ---
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Loading config for AUDUSD ---
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Loading config for USDCAD ---
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Loading config for EURGBP ---
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Loading config for EURCHF ---
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Loading config for GBPAUD ---
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Loading config for AUDNZD ---
+2025-06-13 14:41:41 - MT5_EA - INFO - EA configured to trade symbols: ['EURUSD', 'GBPUSD', 'EURJPY', 'CADJPY', 'AUDUSD', 'USDCAD', 'EURGBP', 'EURCHF', 'GBPAUD', 'AUDNZD']
+2025-06-13 14:41:41 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 14:41:41 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 14:41:41 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 14:41:41 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 14:41:41 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 14:41:41 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 14:41:41 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 14:41:41 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 14:41:41 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 14:41:41 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 14:41:41 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 14:41:41 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 14:41:41 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 14:46:41 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 14:46:41 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 14:46:41 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 14:46:41 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 14:46:41 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 14:46:41 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 14:46:41 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 14:46:41 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 14:46:41 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 14:46:41 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 14:46:41 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 14:46:41 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 14:46:41 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 14:46:41 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 14:46:41 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 14:46:41 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 14:46:41 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 14:46:41 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 14:46:41 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 14:46:41 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 14:46:41 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 14:46:41 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 14:51:41 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 14:51:41 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 14:51:41 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 14:51:41 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 14:51:41 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 14:51:41 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 14:51:41 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 14:51:41 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 14:51:41 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 14:51:41 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 14:51:41 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 14:51:41 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 14:51:41 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 14:51:41 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 14:51:41 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 14:51:41 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 14:51:41 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 14:51:41 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 14:51:41 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 14:51:41 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 14:51:41 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 14:51:41 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 14:56:41 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 14:56:41 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 14:56:41 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 14:56:41 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 14:56:41 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 14:56:41 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 14:56:41 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 14:56:41 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 14:56:41 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 14:56:41 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 14:56:41 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 14:56:41 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 14:56:41 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 14:56:41 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 14:56:41 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 14:56:41 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 14:56:41 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 14:56:41 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 14:56:41 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 14:56:41 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 14:56:41 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 14:56:41 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:01:41 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 15:01:41 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 15:01:41 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 15:01:41 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 15:01:41 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 15:01:41 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 15:01:41 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 15:01:41 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 15:01:41 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 15:01:41 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 15:01:41 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 15:01:41 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 15:01:41 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 15:01:41 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 15:01:41 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 15:01:41 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 15:01:41 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 15:01:41 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 15:01:41 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 15:01:41 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 15:01:41 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 15:01:41 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:06:41 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 15:06:41 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 15:06:41 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 15:06:41 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 15:06:41 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 15:06:41 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 15:06:41 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 15:06:41 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 15:06:41 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 15:06:41 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 15:06:42 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 15:06:42 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 15:06:42 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 15:06:42 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 15:06:42 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 15:06:42 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 15:06:42 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 15:06:42 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 15:06:42 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 15:06:42 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 15:06:42 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 15:06:42 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:11:42 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 15:11:42 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 15:11:42 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 15:11:42 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 15:11:42 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 15:11:42 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 15:11:42 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 15:11:42 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 15:11:42 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 15:11:42 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 15:11:42 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 15:11:42 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 15:11:42 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 15:11:42 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 15:11:42 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 15:11:42 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 15:11:42 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 15:11:42 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 15:11:42 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 15:11:42 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 15:11:42 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 15:11:42 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:16:42 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 15:16:42 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 15:16:42 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 15:16:42 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 15:16:42 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 15:16:42 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 15:16:42 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 15:16:42 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 15:16:42 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 15:16:42 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 15:16:42 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 15:16:42 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 15:16:42 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 15:16:42 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 15:16:42 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 15:16:42 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 15:16:42 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 15:16:42 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 15:16:42 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 15:16:42 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 15:16:42 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 15:16:42 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:21:42 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 15:21:42 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 15:21:42 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 15:21:42 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 15:21:42 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 15:21:42 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 15:21:42 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 15:21:42 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 15:21:42 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 15:21:42 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 15:21:42 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 15:21:42 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 15:21:42 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 15:21:42 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 15:21:42 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 15:21:42 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 15:21:42 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 15:21:42 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 15:21:42 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 15:21:42 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 15:21:42 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 15:21:42 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:26:42 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 15:26:42 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 15:26:42 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 15:26:42 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 15:26:42 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 15:26:42 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 15:26:42 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 15:26:42 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 15:26:42 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 15:26:42 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 15:26:42 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 15:26:42 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 15:26:42 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 15:26:42 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 15:26:42 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 15:26:42 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 15:26:42 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 15:26:42 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 15:26:42 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 15:26:42 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 15:26:42 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 15:26:42 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:31:42 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 15:31:42 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 15:31:42 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 15:31:42 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 15:31:42 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 15:31:42 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 15:31:42 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 15:31:42 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 15:31:42 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 15:31:42 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 15:31:42 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 15:31:42 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 15:31:42 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 15:31:42 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 15:31:42 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 15:31:42 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 15:31:42 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 15:31:42 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 15:31:42 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 15:31:42 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 15:31:42 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 15:31:42 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:36:42 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 15:36:42 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 15:36:42 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 15:36:42 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 15:36:42 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 15:36:42 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 15:36:42 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 15:36:42 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 15:36:42 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 15:36:42 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 15:36:42 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 15:36:42 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 15:36:42 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 15:36:42 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 15:36:42 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 15:36:42 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 15:36:42 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 15:36:42 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 15:36:42 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 15:36:42 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 15:36:42 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 15:36:42 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:41:42 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 15:41:42 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 15:41:42 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 15:41:42 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 15:41:42 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 15:41:42 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 15:41:42 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 15:41:42 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 15:41:42 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 15:41:42 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 15:41:42 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 15:41:42 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 15:41:42 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 15:41:42 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 15:41:42 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 15:41:42 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 15:41:42 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 15:41:42 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 15:41:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 15:41:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 15:41:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 15:41:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:46:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 15:46:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 15:46:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 15:46:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 15:46:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 15:46:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 15:46:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 15:46:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 15:46:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 15:46:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 15:46:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 15:46:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 15:46:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 15:46:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 15:46:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 15:46:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 15:46:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 15:46:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 15:46:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 15:46:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 15:46:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 15:46:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:51:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 15:51:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 15:51:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 15:51:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 15:51:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 15:51:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 15:51:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 15:51:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 15:51:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 15:51:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 15:51:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 15:51:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 15:51:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 15:51:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 15:51:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 15:51:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 15:51:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 15:51:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 15:51:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 15:51:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 15:51:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 15:51:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:56:43 - MT5_EA - INFO - -------------------- New Trading Cycle --------------------
+2025-06-13 15:56:43 - MT5_EA - INFO - --- Processing symbol: EURUSD ---
+2025-06-13 15:56:43 - MT5_EA - INFO - Strategy Entry Signal for EURUSD on M15: HOLD
+2025-06-13 15:56:43 - MT5_EA - INFO - --- Processing symbol: GBPUSD ---
+2025-06-13 15:56:43 - MT5_EA - INFO - Strategy Entry Signal for GBPUSD on M15: HOLD
+2025-06-13 15:56:43 - MT5_EA - INFO - --- Processing symbol: EURJPY ---
+2025-06-13 15:56:43 - MT5_EA - INFO - Strategy Entry Signal for EURJPY on M15: HOLD
+2025-06-13 15:56:43 - MT5_EA - INFO - --- Processing symbol: CADJPY ---
+2025-06-13 15:56:43 - MT5_EA - INFO - Strategy Entry Signal for CADJPY on M15: HOLD
+2025-06-13 15:56:43 - MT5_EA - INFO - --- Processing symbol: AUDUSD ---
+2025-06-13 15:56:43 - MT5_EA - INFO - Strategy Entry Signal for AUDUSD on M15: HOLD
+2025-06-13 15:56:43 - MT5_EA - INFO - --- Processing symbol: USDCAD ---
+2025-06-13 15:56:43 - MT5_EA - INFO - Strategy Entry Signal for USDCAD on M15: HOLD
+2025-06-13 15:56:43 - MT5_EA - INFO - --- Processing symbol: EURGBP ---
+2025-06-13 15:56:43 - MT5_EA - INFO - Strategy Entry Signal for EURGBP on M15: HOLD
+2025-06-13 15:56:43 - MT5_EA - INFO - --- Processing symbol: EURCHF ---
+2025-06-13 15:56:43 - MT5_EA - INFO - Strategy Entry Signal for EURCHF on M15: HOLD
+2025-06-13 15:56:43 - MT5_EA - INFO - --- Processing symbol: GBPAUD ---
+2025-06-13 15:56:43 - MT5_EA - INFO - Strategy Entry Signal for GBPAUD on M15: HOLD
+2025-06-13 15:56:43 - MT5_EA - INFO - --- Processing symbol: AUDNZD ---
+2025-06-13 15:56:43 - MT5_EA - INFO - Strategy Entry Signal for AUDNZD on M15: HOLD
+2025-06-13 15:56:43 - MT5_EA - INFO - Cycle complete. Sleeping for 300 seconds...
+2025-06-13 15:59:58 - MT5_EA - INFO - EA stopped by user (KeyboardInterrupt).
+2025-06-13 15:59:58 - MT5_EA - INFO - Shutting down MT5 connection.
+2025-06-13 15:59:58 - MT5_EA - INFO - Python Expert Advisor has been shut down.
