@@ -160,8 +160,9 @@ def run_backtest():
             if entry_signal in ["BUY", "SELL"]:
                 entry_price = current_candle['close']
                 # Simulate SL/TP calculation using candle close for both ask/bid (zero spread simulation)
-                sl_price, tp_price = risk_manager.calculate_sl_tp(order_type=entry_signal, current_ask=entry_price,
-                                                                  current_bid=entry_price)
+                # NEW, FIXED CODE
+                sl_price, tp_price, _ = risk_manager.calculate_sl_tp(order_type=entry_signal, current_ask=entry_price,
+                                                                     current_bid=entry_price)
                 if sl_price and tp_price:
                     current_trade = {'id': len(completed_trades) + 1, 'symbol': symbol, 'type': entry_signal,
                                      'entry_time': current_candle['time'], 'entry_price': entry_price, 'sl': sl_price,
