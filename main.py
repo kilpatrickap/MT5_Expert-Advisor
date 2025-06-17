@@ -6,7 +6,7 @@ import MetaTrader5 as mt5
 from logger_setup import log
 from mt5_connector import MT5Connector
 from risk_manager import RiskManager
-from trading_strategy import RegimeMomentumStrategy  # <-- IMPORT THE NEW STRATEGY
+from trading_strategy import RegimeMomentumStrategy
 
 
 def run():
@@ -43,17 +43,13 @@ def run():
         return
 
     # --- 3. Pre-Loop Initialization of Strategies and Risk Managers ---
-    # This is more efficient as we initialize objects once per symbol, not on every loop.
     strategies = {}
     risk_managers = {}
-
     log.info("Initializing strategies and risk managers for each symbol...")
     for symbol in symbols_to_trade:
         try:
-            log.info(f"--- Loading config for {symbol} ---")
+            # ... (Strategy initialization remains the same)
             symbol_config = config[symbol]
-
-            # Initialize the new RegimeMomentumStrategy
             strategies[symbol] = RegimeMomentumStrategy(
                 fast_ema_period=int(symbol_config['fast_ema_period']),
                 slow_ema_period=int(symbol_config['slow_ema_period']),
@@ -65,13 +61,10 @@ def run():
                 stoch_oversold=int(symbol_config['stoch_oversold']),
                 stoch_overbought=int(symbol_config['stoch_overbought'])
             )
-
             symbol_info = mt5.symbol_info(symbol)
             if not symbol_info:
-                log.error(f"Could not get info for {symbol}. It will be skipped. Ensure it's in Market Watch.")
+                log.error(f"Could not get info for {symbol}. It will be skipped.")
                 continue
-
-            # Initialize the Risk Manager
             risk_managers[symbol] = RiskManager(
                 symbol=symbol,
                 stop_loss_pips=int(symbol_config['stop_loss_pips']),
@@ -79,22 +72,18 @@ def run():
                 point=symbol_info.point,
                 stops_level=symbol_info.trade_stops_level
             )
-
         except KeyError as e:
             log.error(f"Configuration error for symbol '{symbol}': Missing key {e}. This symbol will be skipped.")
-            # Remove from list to avoid processing in the main loop
             if symbol in strategies: del strategies[symbol]
             if symbol in risk_managers: del risk_managers[symbol]
             continue
-
     log.info(f"EA configured to trade symbols: {list(strategies.keys())}")
 
     # --- 4. Main Trading Loop ---
     try:
         while True:
             log.info("-------------------- New Trading Cycle --------------------")
-
-            for symbol in strategies.keys():  # Iterate only over successfully configured symbols
+            for symbol in strategies.keys():
                 log.info(f"--- Processing symbol: {symbol} ---")
                 try:
                     strategy = strategies[symbol]
@@ -102,58 +91,73 @@ def run():
                     symbol_config = config[symbol]
                     timeframe_str = symbol_config['timeframe']
 
-                    # Fetch historical data needed for the strategy's indicators
+                    # NEW: Get risk percent from config
+                    risk_percent = float(symbol_config.get('risk_per_trade_percent', 1.0))
+
                     historical_data = connector.get_historical_data(symbol, timeframe_str, strategy.min_bars + 5)
                     if historical_data is None or historical_data.empty:
-                        log.warning(f"Could not fetch historical data for {symbol}. Skipping this cycle.")
+                        log.warning(f"Could not fetch historical data for {symbol}. Skipping cycle.")
                         continue
 
                     open_positions = connector.get_open_positions(symbol=symbol, magic_number=magic_number)
 
-                    # --- Decision Logic ---
                     if open_positions:
-                        # --- LOGIC FOR AN OPEN POSITION ---
+                        # ... (Exit logic remains the same)
                         current_pos = open_positions[0]
                         pos_type = "BUY" if current_pos.type == mt5.ORDER_TYPE_BUY else "SELL"
-
-                        # Check for a protective exit signal from the strategy
-                        should_exit = strategy.get_exit_signal(historical_data, pos_type)
-                        if should_exit:
-                            log.info(
-                                f"Protective exit signal (trend failure) for {symbol}. Closing position #{current_pos.ticket}.")
-                            connector.close_position(current_pos, comment="Closed due to trend failure (EMA cross)")
+                        if strategy.get_exit_signal(historical_data, pos_type):
+                            log.info(f"Protective exit signal for {symbol}. Closing position #{current_pos.ticket}.")
+                            connector.close_position(current_pos, comment="Closed due to trend failure")
                         else:
-                            log.info(f"Holding current {pos_type} position for {symbol}. No exit signal.")
+                            log.info(f"Holding current {pos_type} position for {symbol}.")
                     else:
-                        # --- LOGIC FOR NO OPEN POSITION ---
                         entry_signal = strategy.get_entry_signal(historical_data)
                         log.info(f"Strategy Entry Signal for {symbol} on {timeframe_str}: {entry_signal}")
 
                         if entry_signal in ["BUY", "SELL"]:
                             tick = mt5.symbol_info_tick(symbol)
                             if not tick:
-                                log.warning(f"Could not retrieve current tick for {symbol}. Skipping trade attempt.")
+                                log.warning(f"Could not get tick for {symbol}. Skipping trade.")
                                 continue
 
-                            sl_price, tp_price = risk_manager.calculate_sl_tp(
+                            # --- DYNAMIC SIZING LOGIC ---
+                            # 1. Calculate SL/TP and the actual SL distance in pips
+                            sl_price, tp_price, sl_pips = risk_manager.calculate_sl_tp(
                                 order_type=entry_signal,
                                 current_ask=tick.ask,
                                 current_bid=tick.bid
                             )
 
-                            if sl_price and tp_price:
-                                log.info(f"Placing {entry_signal} order for {symbol}. SL: {sl_price}, TP: {tp_price}")
-                                connector.place_order(
-                                    symbol=symbol,
-                                    order_type=entry_signal,
-                                    volume=float(symbol_config['volume']),
-                                    sl_price=sl_price,
-                                    tp_price=tp_price,
-                                    magic_number=magic_number
+                            if sl_price and tp_price and sl_pips:
+                                # 2. Get account balance
+                                account_info = mt5.account_info()
+                                if not account_info:
+                                    log.error("Could not get account info. Skipping trade.")
+                                    continue
+                                account_balance = account_info.balance
+
+                                # 3. Calculate volume based on risk
+                                volume = risk_manager.calculate_volume(
+                                    account_balance=account_balance,
+                                    risk_percent=risk_percent,
+                                    stop_loss_pips=sl_pips
                                 )
 
+                                # 4. Place order if volume is valid
+                                if volume:
+                                    log.info(
+                                        f"Placing {entry_signal} order for {symbol} | Vol: {volume}, SL: {sl_price}, TP: {tp_price}")
+                                    connector.place_order(
+                                        symbol=symbol,
+                                        order_type=entry_signal,
+                                        volume=volume,
+                                        sl_price=sl_price,
+                                        tp_price=tp_price,
+                                        magic_number=magic_number
+                                    )
+
                 except Exception as e:
-                    log.error(f"An unexpected error occurred while processing {symbol}: {e}", exc_info=True)
+                    log.error(f"Unexpected error processing {symbol}: {e}", exc_info=True)
                     continue
 
             sleep_duration = int(trade_params['main_loop_sleep_seconds'])
@@ -161,7 +165,7 @@ def run():
             time.sleep(sleep_duration)
 
     except KeyboardInterrupt:
-        log.info("EA stopped by user (KeyboardInterrupt).")
+        log.info("EA stopped by user.")
     except Exception as e:
         log.error(f"A critical error occurred in the main loop: {e}", exc_info=True)
     finally:
@@ -171,4 +175,3 @@ def run():
 
 if __name__ == "__main__":
     run()
-

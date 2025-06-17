@@ -510,7 +510,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750078729759</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="10 recommended currency pairs.">
+      <option name="closed" value="true" />
+      <created>1750145980180</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1750145980180</updated>
+    </task>
+    <task id="LOCAL-00047" summary="10 recommended currency pairs.">
+      <option name="closed" value="true" />
+      <created>1750146335184</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1750146335184</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
