@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa27ddf4-d4aa-4052-9a95-7ecc4b3ac13d" name="Changes" comment="AUDCAD dynamic backtesting." />
+    <list default="true" id="aa27ddf4-d4aa-4052-9a95-7ecc4b3ac13d" name="Changes" comment="EURGBP dynamic backtesting.">
+      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic_backtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_backtest.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,14 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749545562604</updated>
-    </task>
-    <task id="LOCAL-00006" summary="backtesting">
-      <option name="closed" value="true" />
-      <created>1749635528339</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1749635528339</updated>
     </task>
     <task id="LOCAL-00007" summary="backtesting">
       <option name="closed" value="true" />
@@ -563,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750166759733</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="EURGBP dynamic backtesting.">
+      <option name="closed" value="true" />
+      <created>1750170072391</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1750170072391</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -578,7 +581,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="backtesting" />
     <MESSAGE value="backtesting 4 pairs." />
     <MESSAGE value="Demo test." />
     <MESSAGE value="final consolidated." />
@@ -603,6 +605,7 @@
     <MESSAGE value="5 Majors backtesting" />
     <MESSAGE value="USDJPY dynamic backtesting." />
     <MESSAGE value="AUDCAD dynamic backtesting." />
-    <option name="LAST_COMMIT_MESSAGE" value="AUDCAD dynamic backtesting." />
+    <MESSAGE value="EURGBP dynamic backtesting." />
+    <option name="LAST_COMMIT_MESSAGE" value="EURGBP dynamic backtesting." />
   </component>
 </project>

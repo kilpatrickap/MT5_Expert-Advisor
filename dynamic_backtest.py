@@ -16,8 +16,8 @@ from trading_strategy import RegimeMomentumStrategy
 # Define the different values you want to test for each parameter.
 # Be careful: more values mean exponentially longer optimization times.
 OPTIMIZATION_PARAMS = {
-    'stop_loss_pips': [90, 100, 110],
-    'risk_reward_ratio': [2.0, 2.5, 3.0],
+    'stop_loss_pips': [70, 90, 110],
+    'risk_reward_ratio': [1.5, 1.8, 2.0],
     'adx_threshold': [28, 30, 32]
 }
 
