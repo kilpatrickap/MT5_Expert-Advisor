@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa27ddf4-d4aa-4052-9a95-7ecc4b3ac13d" name="Changes" comment="USDJPY dynamic backtesting.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_backtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_backtest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ea_activity.log" beforeDir="false" afterPath="$PROJECT_DIR$/ea_activity.log" afterDir="false" />
-    </list>
+    <list default="true" id="aa27ddf4-d4aa-4052-9a95-7ecc4b3ac13d" name="Changes" comment="AUDCAD dynamic backtesting." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,14 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749545562604</updated>
-    </task>
-    <task id="LOCAL-00005" summary="main error fixed.">
-      <option name="closed" value="true" />
-      <created>1749635123934</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1749635123934</updated>
     </task>
     <task id="LOCAL-00006" summary="backtesting">
       <option name="closed" value="true" />
@@ -568,7 +555,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750162064919</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="AUDCAD dynamic backtesting.">
+      <option name="closed" value="true" />
+      <created>1750166759733</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1750166759733</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -583,7 +578,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main error fixed." />
     <MESSAGE value="backtesting" />
     <MESSAGE value="backtesting 4 pairs." />
     <MESSAGE value="Demo test." />
@@ -608,6 +602,7 @@
     <MESSAGE value="EURUSD(H1) backtesting profit factor 3.01" />
     <MESSAGE value="5 Majors backtesting" />
     <MESSAGE value="USDJPY dynamic backtesting." />
-    <option name="LAST_COMMIT_MESSAGE" value="USDJPY dynamic backtesting." />
+    <MESSAGE value="AUDCAD dynamic backtesting." />
+    <option name="LAST_COMMIT_MESSAGE" value="AUDCAD dynamic backtesting." />
   </component>
 </project>
